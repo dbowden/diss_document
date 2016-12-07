@@ -1,0 +1,6 @@
+base
+dplyr
+lubridate
+network
+networkDynamic
+xtable
