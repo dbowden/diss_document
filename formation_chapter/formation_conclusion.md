@@ -1,64 +1,7 @@
-% -*- root: isamw16.Rnw -*-
+# Conclusion
 
-\section{Results}
+I have argued that contrary to some theoretical treatments, rebel groups do care about political aims. This fact should lead alliance ties to be most common among groups sharing similar goals. Indeed, I find that in the Syrian Civil War, shared political goals are the single most important determinant of alliance partners. I do not find support for the notion that more powerful groups should be less likely to form alliances. While I do not find evidence of religious homophily, that may be an artifact of the limited diversity of Syrian rebels. Finally, I found a null relationship between shared territorial ambitions and alliances, where I expected a negative relationship.
 
-The results are presented in Table 1, and in Figures 4--6. The TERGM estimates are logged odds ratios, and thus can be interpreted in an identical way to logit estimates. Bootstrapped 95\% confidence intervals are in parentheses. Model 1 includes measures of whether the members of each dyad share the same value on various measures. Model 2 disaggregates the political objective variable into specific categories, to examine whether any particular goals drive the relationship. Model 3 replicates Model 1, but excludes the pro-government groups.
+The finding on the importance of political goals contrasts with multiple existing theories of rebellion. The importance of political goals contrasts with the greed model of civil war, which views rebellion as being primarily aimed at procuring private material benefits for members. It also calls into question purely power-based accounts [@Christia2012], which expect rebels to be concerned with little else but winning. In addition, these results can help us to predict the dynamics of civil conflicts. If we observe a conflict with many rebel factions, but these groups share similar goals, we might expect the movement to aggregate over time. If these groups have disparate interests, however, there is a strong possibility that the conflict will remain highly fragmented. Given the severity associated with more complex conflicts, the ability to make predictions of this sort is highly valuable.
 
-Hypothesis 1 predicts that groups with similar political objectives will be more likely to form alliances than other dyads. I am able to reject the null hypothesis in this case, as the ``Same Goals'' coefficient is positive and statistically significant in Models 1 and 3. Furthermore, the substantive effect is large. Alliances are quite rare among groups without similar goals --- a probability of just 0.02 (based on Model 1). Moving from having differing goals to the same goals raises the probability to 0.14. Model 2 suggests that this relationship is driven by Jihadist dyads. Shared goals of a caliphate or Islamist policies do not have a statistically significant relationship with alliance ties, while shared Jihadist goals have positive and significant relationship with alliances.
-
-Hypothesis 2 predicts that more powerful groups will be less likely to form alliances than weaker groups. Instead, Troop Strength has a significant positive relationship with alliance formation in Model 1, and is not related in Models 2 and 3. Even in Model 1, the substantive effect is modest. A one-unit increase in the logged number of troops increase the probability of an alliance by roughly 0.02. I also examined whether similarity in troop strength predicted alliance ties, defining similarity has having a difference in rank of less than or equal to 5 on the troop strength measure. This parameter is not significant in Models 1 and 2, but has a significant negative relationship in Model 3. This suggests that alliances are uncommon among groups that are near parity in size, and are more likely among groups that differ in power.
-
-Hypothesis 3 predicts that groups representing the same social group should be likely to have ties. As there is very little ethnic diversity among the Syrian rebels, I examine the role of shared religious identities. This coefficient is not statistically significant in either Model 1 or Model 3. Thus I fail to reject the null for Hypothesis 3. This is likely a reflection of the fact that there is not a high degree of diversity in the Syrian conflict. Most rebel groups are predominantly composed of Sunni Muslims, and thus religion is perhaps not a particularly salient consideration in alignments. This analysis should be replicated in other cases that feature greater ethnic or religious diversity before this hypothesis is considered to be definitively falsified.
-
-Finally, Hypothesis 4 predicts that groups claiming specific territories in pursuit of secessionist or irredentist goals will be unlikely to form alliances. The ``Both Territorial Aims'' variable in Models 1 and 3 and the ``Both Caliphate'' variable in Model 2 each should capture this dynamic. None of them are statistically significant, however. It would seem that some dyads with territorial aims are able to form alliances, leading to the null result. One interpretation with regards to my theory is simply that more nuance is needed, as some factor allows some dyads to overcome the incentives against cooperation. One of the alliances accounting for this pattern is between former al-Qaeda affiliates IS and the Nusra Front. It should be noted that the two groups have become enemies in recent years, and thus my prediction might hold true on a more limited subset of the data.
-
-<<echo=F, cache=T, message=FALSE, warning=F, results='asis'>>=
-library(xergm)
-library(texreg)
-
-#creat networkdynamic object
-setwd("~/Box Sync/ISAMW16/isamw16_analysis/")
-source("syria_dataprep.R")
-#
-m10 <- btergm(syria ~ edges + triangle + threetrail + twopath + smalldiff('rtroops.low', 5) + nodecov('ltroops.low') + nodematch('main.objective') + nodematch('territory') + nodematch('religion') + nodefactor('polwing'), R = 1000, parallel = 'multicore', ncpus = 3)
-#summary(m10)
-#plotreg(m10, omit.coef = 'edges')
-#g10 <- gof(m10)
-
-m11 <- btergm(syria ~ edges + triangle + threetrail + twopath + smalldiff('rtroops.low', 5) + nodecov('ltroops.low') + nodematch('caliphate') + nodematch('jihadist') + nodematch('islamist') + nodefactor('polwing'), R = 1000, parallel = 'multicore', ncpus = 3)
-#summary(m11)
-#plotreg(m11, omit.coef = 'edges')
-#g11 <- gof(m11)
-
-m12 <- btergm(syria.nonshia ~ edges + triangle + threetrail + twopath + smalldiff('rtroops.low', 5) + nodecov('ltroops.low') + nodematch('main.objective') + nodematch('territory') + nodematch('religion') + nodefactor('polwing'), R = 1000, parallel = 'multicore', ncpus = 3)
-
-labels <- c("Edges","Triads", "3 Trails", "2 Stars", "Troop Similarity", "Troop Strength", "Same Goal", "Both Territorial Aims", "Same Religion", "Political Wing", "Both Caliphate", "Both Jihadist", "Both Islamist")
-
-texreg(list(m10,m11,m12),caption = 'TERGM Models of Alliance Formation', custom.coef.names = labels)
-@
-
-For robustness I have included a one-period lag of the network ties. This does not substantially alter the results. In addition, I have explored the robustness of the results to the choice of time periods. Dividing the data into two year blocks (2011-2012, 2013-2014, 2015-2016) again yields similar results.
-
-<<echo=F, message=F, cache=T>>=
-texreg::plotreg(m10, omit.coef = 'Edges', custom.model.names = "Model 1", custom.coef.names = c("Edges","Triads", "3 Trails", "2 Stars", "Troop Similarity", "Troop Strength", "Same Goal", "Both Territorial Aims", "Same Religion", "Political Wing"))
-@
-
-<<echo=F, message=F, cache=T>>=
-texreg::plotreg(m11, omit.coef = 'Edges', custom.model.names = 'Model 2', custom.coef.names = c("Edges","Triads", "3 Trails", "2 Stars", "Troop Similarity", "Troop Strength", "Both Caliphate", "Both Jihadist", "Both Islamist", "Political Wing"))
-@
-
-<<echo=F, message=F, cache=T>>=
-texreg::plotreg(m12, omit.coef = 'Edges', custom.model.names = 'Model 3', custom.coef.names = c("Edges","Triads", "3 Trails", "2 Stars", "Troop Similarity", "Troop Strength", "Same Goal", "Both Territorial Aims", "Same Religion", "Political Wing"))
-@
-
-% <<echo=F, message=F, cache=T>>=
-% plot(btergm::gof(m10))
-% @
-%
-% <<echo=F, message=F, cache=T>>=
-% plot(btergm::gof(m11))
-% @
-%
-% <<echo=F, message=F, cache=T>>=
-% plot(btergm::gof(m12))
-% @
+Further research in this area is needed. My hypothesized effects may simply be conditional on factors that I have yet to account for. For example, access to material support from an outside actor should reduce competition over civilian support bases or territory. In addition, this work should be replicated in other cases. As one of the most complex civil wars on record, it is possible that the dynamics in Syria do not apply in other conflicts. Finally, future work should move beyond explaining the formation of networks and explore the effects of network structure on rebel behavior. For instance, are more densely networked rebel coalitions more resilient to anti-insurgent campaigns? Do certain tactics diffuse across rebel networks?

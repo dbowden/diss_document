@@ -1,4 +1,4 @@
-## The Value of Rebel Alliances
+# The Value of Rebel Alliances
 
 I begin with the assumption that rebels genuinely care about political outcomes. This contrasts with the most extreme interpretations of the greed-based theory of civil war [e.g. @mueller00], which view rebellion as little more than large-scale criminal activity. I do not, however, view this assumption as incompatible with the notion that private material benefits play an important role in recruiting and retaining rank-and-file members, or even with the evidence that many rebel elites have accumulated great personal wealth by capturing natural resources and other revenue streams. I simply expect that rebel groups have political preferences of some variety, and that these preferences will play an important role in shaping their relations with other groups. For example, rebels may have ideological goals that could be classified on a standard left-right spectrum, advocate for increased political status for an ethnic or religious groups, or pursue secession for a particular region.
 
@@ -10,7 +10,7 @@ Third, alliances can manage conflict between members and ensure that their resou
 
 Fourth, operating as an alliance bloc may be beneficial to the groups involved in bargaining situations. An alliance bloc with a set of coordinated demands might command greater bargaining leverage than individual members, who collectively have similar power, but a more disparate set of demands. Perhaps more crucially, alliances might mitigate credible commitment problems. Peaceful settlements to conflicts can be derailed by concerns that the other side will not adhere to the agreement [@fearon95]. In civil wars, this is often borne out by extreme "spoiler" factions. A rebel commitment to a peace agreement is more likely to be viewed as credible if it has formal control over other factions.
 
-## The Choice of Alliance Partners
+# The Choice of Alliance Partners
 
 While cooperation in the form of alliances can be beneficial to rebel groups with shared interests for the reasons outlined above, it is necessary to develop more precise expectations regarding when these shared interests will exist. In theory rebels at a minimum share a common interest in defeating the government. Yet, even that is not always the case, as rebel factions have defected to the government side in a number of conflicts including those in Sri Lanka and Iraq [@Christia2012; @Staniland2012d]. Thus, the formation of alliances seems to require a more specific set of shared interests. Broadly, I expect rebels to cooperate when their primary objectives entail the provision of public, non-rival goods to society, and to be much less likely to form alliances when they are pursuing goals that are subject to rival consumption.
 

@@ -3,15 +3,15 @@ title: "The Logic of Alliance Formation Among Rebel Groups"
 author: "David Bowden"
 date: "`r paste(format(Sys.time(), '%B'), ' ', as.numeric(format(Sys.time(), '%d')), ',', ' ', format(Sys.time(), '%Y'), sep='')`"
 output: pdf_document
-    #word_document:
-        #reference_docx: "/Users/david/.pandoc/templates/pandoc.docx"
+    # word_document:
+    #     reference_docx: "/Users/david/.pandoc/templates/pandoc.docx"
 documentclass: article
 bibliography: /Users/david/Dropbox/library.bib
 csl: /Users/david/.pandoc/csl/apsa.csl
 fontsize: 12pt
 fontfamily: tgpagella
 geometry: margin=1in
-numbersections: false
+numbersections: true
 toc: no
 header-includes:
   - \usepackage{setspace}
@@ -32,4 +32,10 @@ header-includes:
 ```
 
 ```{r child='formation_design.Rmd'}
+```
+
+```{r child='formation_results.Rmd'}
+```
+
+```{r child='formation_conclusion.md'}
 ```

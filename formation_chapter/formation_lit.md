@@ -1,4 +1,4 @@
-## Relations Among Rebels
+# Relations Among Rebels
 
 Relations among rebel groups remains one of the most underexplored aspects of civil war. The vast majority of existing studies explore conflict between non-state actors. In the most comprehensive study to date, [@Fjelde2012] suggest that rebels fight each other for control over resources such drug supplies or valuable terrain. Greater resource endowments should lead to better postwar bargains with the government in the long run, and greater ability to sustain a rebellion in the short run. The authors find that this logic is most likely to prevail in the presence of natural resources, territories that are not controlled by the government, militarily weak governments, and significant power asymmetries among rebels. [@Atlas1999] find that this dynamic can also arise in the aftermath of conflicts, as the main fighting in renewed civil wars is often between previously allied rebel groups.
 
