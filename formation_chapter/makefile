@@ -9,6 +9,9 @@ clean:
 wordcount:
 	ps2ascii $(MAIN).pdf | wc -w
 
+view:
+	open -a Skim.app $(MAIN).pdf
+
 $(MAIN).$(FORMAT): $(MAIN).rmd
 	Rscript -e 'rmarkdown::render("$<")'
 	# Rscript -e 'bookdown::render_book("$<")'

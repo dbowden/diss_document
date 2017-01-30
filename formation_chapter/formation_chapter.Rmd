@@ -22,13 +22,13 @@ header-includes:
  knitr::opts_chunk$set(echo=F, error=F, message=F, warning=F, cache=T, results='asis')
 ```
 
-```{r child='formation_intro.md'}
+```{r child='formation_intro.txt'}
 ```
 
-```{r child='formation_lit.md'}
+```{r child='formation_lit.txt'}
 ```
 
-```{r child='formation_theory.md'}
+```{r child='formation_theory.txt'}
 ```
 
 ```{r child='formation_design.Rmd'}
@@ -37,5 +37,5 @@ header-includes:
 ```{r child='formation_results.Rmd'}
 ```
 
-```{r child='formation_conclusion.md'}
+```{r child='formation_conclusion.txt'}
 ```
