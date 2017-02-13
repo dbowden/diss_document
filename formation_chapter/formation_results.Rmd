@@ -1,6 +1,6 @@
 # Results
 
-The results are presented in Table \@ref(tab:models), and in Figures \@ref(fig:regplot1)-\@ref(fig:regplot3). The TERGM estimates are logged odds ratios, and thus can be interpreted in an identical way to logit estimates. Bootstrapped 95% confidence intervals are in parentheses. Model 1 includes measures of whether the members of each dyad share the same value on various measures. Model 2 disaggregates the political objective variable into specific categories, to examine whether any particular goals drive the relationship. Model 3 replicates Model 1, but excludes the pro-government groups.
+The results are presented in Table \@ref(tab:models), and in Figures 1-3. The TERGM estimates are logged odds ratios, and thus can be interpreted in an identical way to logit estimates. Bootstrapped 95% confidence intervals are in parentheses. Model 1 includes measures of whether the members of each dyad share the same value on various measures. Model 2 disaggregates the political objective variable into specific categories, to examine whether any particular goals drive the relationship. Model 3 replicates Model 1, but excludes the pro-government groups.
 
 Hypothesis 1 predicts that groups with similar political objectives will be more likely to form alliances than other dyads. I am able to reject the null hypothesis in this case, as the 'Same Goals' coefficient is positive and statistically significant in Models 1 and 3. Furthermore, the substantive effect is large. Alliances are quite rare among groups without similar goals - a probability of just 0.02 (based on Model 1). Moving from having differing goals to the same goals raises the probability to 0.14. Model 2 suggests that this relationship is driven by Jihadist dyads. Shared goals of a caliphate or Islamist policies do not have a statistically significant relationship with alliance ties, while shared Jihadist goals have positive and significant relationship with alliances.
 
@@ -10,7 +10,7 @@ Hypothesis 3 predicts that groups representing the same social group should be l
 
 Finally, Hypothesis 4 predicts that groups claiming specific territories in pursuit of secessionist or irredentist goals will be unlikely to form alliances. The 'Both Territorial Aims' variable in Models 1 and 3 and the 'Both Caliphate' variable in Model 2 each should capture this dynamic. None of them are statistically significant, however. It would seem that some dyads with territorial aims are able to form alliances, leading to the null result. One interpretation with regards to my theory is simply that more nuance is needed, as some factor allows some dyads to overcome the incentives against cooperation. One of the alliances accounting for this pattern is between former al-Qaeda affiliates IS and the Nusra Front. It should be noted that the two groups have become enemies in recent years, and thus my prediction might hold true on a more limited subset of the data.
 
-```{r models}
+```{r models, results='asis'}
 library(xergm)
 library(texreg)
 
@@ -32,7 +32,7 @@ m12 <- btergm(syria.nonshia ~ edges + triangle + threetrail + twopath + smalldif
 
 labels <- c("Edges","Triads", "3 Trails", "2 Stars", "Troop Similarity", "Troop Strength", "Same Goal", "Both Territorial Aims", "Same Religion", "Political Wing", "Both Caliphate", "Both Jihadist", "Both Islamist")
 
-htmlreg(list(m10,m11,m12),caption = 'TERGM Models of Alliance Formation', custom.coef.names = labels,label="tab:models")
+texreg(list(m10,m11,m12),caption = 'TERGM Models of Alliance Formation', custom.coef.names = labels, label="tab:models")
 ```
 
 For robustness I have included a one-period lag of the network ties. This does not substantially alter the results. In addition, I have explored the robustness of the results to the choice of time periods. Dividing the data into two year blocks (2011-2012, 2013-2014, 2015-2016) again yields similar results.

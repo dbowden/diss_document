@@ -12,6 +12,6 @@ wordcount:
 view:
 	open -a Skim.app $(MAIN).pdf
 
-$(MAIN).$(FORMAT): $(MAIN).rmd
+$(MAIN).$(FORMAT): $(MAIN).Rmd
 	Rscript -e 'rmarkdown::render("$<")'
 	# Rscript -e 'bookdown::render_book("$<")'
