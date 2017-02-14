@@ -2,23 +2,24 @@
 title: "The Logic of Alliance Formation Among Rebel Groups"
 author: "David Bowden"
 date: "`r paste(format(Sys.time(), '%B'), ' ', as.numeric(format(Sys.time(), '%d')), ',', ' ', format(Sys.time(), '%Y'), sep='')`"
-output: pdf_document
+output:
+    pdf_document:
+        includes:
+            in_header: preamble.tex
 documentclass: article
 bibliography: /Users/david/Box Sync/library.bib
-csl: /Users/david/.pandoc/csl/apsr.csl
 fontsize: 12pt
 fontfamily: tgpagella
 geometry: margin=1in
 numbersections: true
 toc: no
-header-includes:
-  - \usepackage{setspace}
-  - \doublespacing
 ---
 
  ```{r setup, include=F}
  knitr::opts_chunk$set(echo=F, error=F, message=F, warning=F, cache=T, results='asis')
 ```
+
+\doublespacing
 
 ```{r child='formation_intro.txt'}
 ```
