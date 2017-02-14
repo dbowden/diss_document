@@ -3,7 +3,7 @@ title: "The Logic of Alliance Formation Among Rebel Groups"
 author: "David Bowden"
 date: "`r paste(format(Sys.time(), '%B'), ' ', as.numeric(format(Sys.time(), '%d')), ',', ' ', format(Sys.time(), '%Y'), sep='')`"
 output:
-    pdf_document:
+    bookdown::pdf_document2:
         includes:
             in_header: preamble.tex
 documentclass: article

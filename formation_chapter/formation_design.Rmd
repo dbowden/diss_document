@@ -1,97 +1,15 @@
 # Research Design
 
-To test these hypotheses, I use data on rebel interactions during the Syrian Civil War. The war in Syria began in March 2011, and presents a rich environment for studying rebel alignments as it is one of the more complex conflicts in the post-WWII era. The conflict is characterized by numerous loose coalitions, which are often made up of several largely autonomous brigades, each with their own name, support base, and agenda. For example, the Free Syrian Army is in theory one of the largest groups in the conflict, but it is made up of brigades that range from moderate defectors from the Assad regime to factions with jihadist sympathies. Several such brigades have split from their parent organizations to become independent, and others have defected to rival groups. Because of this decentralized structure, estimates of the number of groups active in the conflict vary wildly. If one counts each brigade as a separate organization, they number likely surpasses 200, and may approach 1,000.^[See BBC News, "Guide to the Syrian Rebels" [http://www.bbc.com/news/world-middle-east-24403003](http://www.bbc.com/news/world-middle-east-24403003).] In the data employed here, I only consider fully autonomous organizations (i.e. those that are not subsidiaries of other groups). I do this in part for practical reasons, but also because while factions within larger groups may have the ability to leave their parent organization, it is not necessarily the case that they have the ability to engage in lasting cooperation with other groups, separately from the decisions made by the parent organization. This definition yields a set of 29 organizations that are active at some point in the conflict.
+To test these hypotheses, I use data on rebel interactions during the Syrian Civil War. The war in Syria began in March 2011 and continues through the present, and provides a rich environment for studying rebel alignments as it is one of the more complex conflicts in the post-WWII era. The conflict is characterized by numerous loose coalitions, which are often made up of several largely autonomous brigades, each with their own name and support base. Several such brigades have split from their parent organizations to become independent, and others have defected to rival groups. Because of this decentralized structure, estimates of the number of groups active in the conflict vary wildly. If one counts each brigade as a separate organization, their number likely surpasses two dozen, and may well be in the hundreds.^[See BBC News, "Guide to the Syrian Rebels" [http://www.bbc.com/news/world-middle-east-24403003](http://www.bbc.com/news/world-middle-east-24403003).] In the data employed here, I only consider fully autonomous organizations (i.e. those that are not subsidiaries of other groups). I do this in part for practical reasons, but also because generally lack the ability to engage in lasting cooperation with other groups, separately from the decisions made by the parent organization. If a faction splinters from its parent and becomes independent, however, they enter the data. This definition yields a set of 29 organizations that are active at some point in the conflict.
 
 ## The Data
 
-I employ a compilation of existing and original data that on the Syrian conflict. The data cover the period March 15, 2011 to September 30, 2016, and as noted above, includes the 29 non-state actors that are clearly independent from other groups at some point during the conflict.[^Some became independent by splitting from a parent organization, and others were independent at some point but were later absorbed by a larger organization.] This includes all non-state actors that have engaged in violence in Syria. Thus several groups that did not originate in Syria, such as Hezbollah (Lebanon) and the Islamic State (Iraq). It should be noted that I include several actors that have to this point fought mainly on the side of the government. I do this for two reasons. First, there are numerous cases of pro-government actors defecting to the rebel side, and vice-versa. Second, while the conflict between the Assad regime and various rebels is obviously a prominent dimension of the war, in many locales the primary opponent for rebels is the Islamic State (IS). Thus it is quite conceivable that these actors might form alliances with anti-Assad forces, either due to a realignment in the conflict, or more likely, to fight against IS. The primary source of the data is the Stanford Mapping Militant Organizations Project^[[http://web.stanford.edu/group/mappingmilitants/cgi-bin/](http://web.stanford.edu/group/mappingmilitants/cgi-bin/)], which I used to define the universe of independent rebel groups, and provided the majority of the alliance ties in the data. I supplement this with my own codings of additional alliances and several covariates based on news articles procured through LexisNexis and reports from think tanks including the Institute for the Study of War and the Carter Center. The complete list of included groups is presented in Table \@ref(tab:members) and the network of alliances is plotted in Figure \@ref(fig:networkplot). As the figures make clear, the pattern of alliances changes considerably over time, with many new alliances forming over the course of the conflict, and several existing alliances crumbling.
+I employ a compilation of existing and original data that on the Syrian conflict. The data cover the period March 15, 2011 to September 30, 2016, and as noted above, includes the 29 non-state actors that are clearly independent from other groups at some point during the conflict.^[Some became independent by splitting from a parent organization, and others were independent at some point but were later absorbed by a larger organization.] This includes all non-state actors that have engaged in violence in Syria. Thus several groups that did not originate in Syria are included, such as Hezbollah (Lebanon) and the Islamic State (Iraq). It should be noted that I include several actors that have to this point fought mainly on the side of the government, including Hezbollah and several Iraqi Shiite groups. I do this for two reasons. First, there are numerous cases of pro-government actors defecting to the rebel side, and vice-versa [@Staniland2012d]. Second, while the conflict between the Assad regime and various rebels is obviously a central dimension of the war, in many locales the primary opponent for rebels is the Islamic State (IS). Thus it is quite conceivable that these pro-Assad actors might form alliances with anti-Assad forces, either due to a realignment in the conflict, or more likely, to fight against IS. Excluding such organizations does not substantially alter my results.
 
-```{r dataprep_plot}
-library(dplyr)
-library(lubridate)
-library(networkDynamic)
+The primary source of the data is the Stanford Mapping Militant Organizations Project^[[http://web.stanford.edu/group/mappingmilitants/cgi-bin/](http://web.stanford.edu/group/mappingmilitants/cgi-bin/)], which I used to define the universe of independent rebel groups, and provided the majority of the alliance ties in the data. I supplement this with my own codings of additional alliances and several covariates based on news articles procured through LexisNexis and reports from think tanks including the Institute for the Study of War and the Carter Center. The complete list of included groups is presented in Table \@ref(tab:members) and the network of alliances is plotted in Figure \@ref(fig:networkplot). As the figures make clear, the pattern of alliances changes considerably over time, with many new alliances forming over the course of the conflict, and several existing alliances crumbling.
 
-# 1. get graph membership for each year -----
-
-setwd("~/Box Sync/ISAMW16/isamw16_analysis/")
-
-cov <- read.csv("old/syria_covariates.csv")
-
-nodes <- cov[,1:4]
-
-nodes$end[is.na(nodes$end)] <- 2017
-
-#create id nums & merge
-nums <- data.frame(name=nodes$name, num=seq(1:length(nodes$name)))
-nodes <- left_join(nodes, nums)
-
-# 2. get edges ---------
-
-edges <- read.csv("old/syria_alliances.csv", na.strings = "")
-affil <- read.csv("old/syria_affilitations.csv", na.strings = "")
-
-#merge alliances & affiliations
-edges <- rbind(edges[,-5], affil)
-
-#fix dates
-edges <- edges %>%  mutate(start=year(mdy(start)),end=year(mdy(end)))
-edges$end[is.na(edges$end)] <- 2017
-
-#aggregate to fix a few duplicates
-edges <- edges %>%
-  group_by(groupA, groupB) %>%
-  summarize(start=min(start),end=max(end))
-
-rm(affil)
-
-#merge in numbers
-colnames(nums) <- c("groupA","numA")
-edges <- left_join(edges, nums)
-colnames(nums) <- c("groupB","numB")
-edges <- left_join(edges, nums)
-
-# 3. convert to networkdynamic object -------
-edges$start <- as.numeric(edges$start)
-
-syrnet <- network.initialize(29, directed=F)
-syrnet <- networkDynamic(vertex.spells = nodes[,c(3,4,5)], edge.spells = data.frame(edges[,3:6]), base.net = syrnet, verbose = F)
-
-rm(nodes, edges)
-
-# 4. set attributes ------
-
-#import condensed cov data
-cov2 <- read.csv("covariates_umbrellas.csv")
-colnames(nums) <- c("name", "num")
-cov2 <- right_join(cov2, nums)
-
-#set covariates
-set.vertex.attribute(syrnet, 'ltroops.hi', log(cov2$troop.high+1))
-set.vertex.attribute(syrnet, 'ltroops.low', log(cov2$troop.low+1))
-set.vertex.attribute(syrnet, 'rtroops.hi', rank(cov2$troop.high))
-set.vertex.attribute(syrnet, 'rtroops.low', rank(cov2$troop.low))
-set.vertex.attribute(syrnet, 'troops.hi', cov2$troop.high+1)
-set.vertex.attribute(syrnet, 'troops.low', cov2$troop.low+1)
-set.vertex.attribute(syrnet, 'sunni', cov2$sunni)
-set.vertex.attribute(syrnet, 'shia', cov2$shia)
-set.vertex.attribute(syrnet, 'jihadist', cov2$jihadist)
-set.vertex.attribute(syrnet, 'islamist', cov2$islamist)
-set.vertex.attribute(syrnet, 'caliphate', cov2$caliphate)
-set.vertex.attribute(syrnet, 'shia.interests', cov2$shia.interests)
-set.vertex.attribute(syrnet, 'moderate', cov2$moderate)
-set.vertex.attribute(syrnet, 'territory', cov2$territorial.aims)
-set.vertex.attribute(syrnet, 'polwing', cov2$polwing)
-set.vertex.attribute(syrnet, 'main.objective', as.character(cov$main.objective))
-set.vertex.attribute(syrnet, 'origin', as.character(cov$origin))
-network.vertex.names(syrnet) <- as.character(cov$abbrev)
-
-#recode religion
-cov$religion[cov$religion=="Christian"] <- "Other"
-cov$religion[cov$religion=="Mixed"] <- "Other"
-set.vertex.attribute(syrnet, 'religion',as.character( cov$religion))
-
-
-rm(nums, cov, cov2)
+```{r dataprep}
+source("syria_dataprep.R")
 ```
 
 ```{r members}

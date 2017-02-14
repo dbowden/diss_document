@@ -14,4 +14,4 @@ view:
 
 $(MAIN).$(FORMAT): $(MAIN).Rmd
 	Rscript -e 'rmarkdown::render("$<")'
-	# Rscript -e 'bookdown::render_book("$<")'
+	#Rscript -e 'bookdown::render_book("$<")'

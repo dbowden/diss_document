@@ -1,0 +1,169 @@
+---
+title: "The Logic of Alliance Formation Among Rebel Groups"
+author: "David Bowden"
+date: "`r paste(format(Sys.time(), '%B'), ' ', as.numeric(format(Sys.time(), '%d')), ',', ' ', format(Sys.time(), '%Y'), sep='')`"
+output:
+    bookdown::pdf_document2:
+        includes:
+            in_header: preamble.tex
+documentclass: article
+bibliography: /Users/david/Box Sync/library.bib
+fontsize: 12pt
+fontfamily: tgpagella
+geometry: margin=1in
+numbersections: true
+toc: no
+---
+
+ ```{r setup, include=F}
+ knitr::opts_chunk$set(echo=F, error=F, message=F, warning=F, cache=T, results='asis')
+```
+
+\doublespacing
+
+```{r child='formation_intro.txt'}
+```
+
+```{r child='formation_lit.txt'}
+```
+
+```{r child='formation_framework.txt'}
+```
+
+```{r child='formation_theory.txt'}
+```
+
+```{r child='formation_design.Rmd'}
+```
+
+```{r child='formation_results.Rmd'}
+```
+
+```{r child='formation_conclusion.txt'}
+```
+
+# References
+
+\indent
+
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
+\singlespacing
+
+<!--chapter:end:formation_chapter.Rmd-->
+
+# Research Design
+
+To test these hypotheses, I use data on rebel interactions during the Syrian Civil War. The war in Syria began in March 2011 and continues through the present, and provides a rich environment for studying rebel alignments as it is one of the more complex conflicts in the post-WWII era. The conflict is characterized by numerous loose coalitions, which are often made up of several largely autonomous brigades, each with their own name and support base. Several such brigades have split from their parent organizations to become independent, and others have defected to rival groups. Because of this decentralized structure, estimates of the number of groups active in the conflict vary wildly. If one counts each brigade as a separate organization, their number likely surpasses two dozen, and may well be in the hundreds.^[See BBC News, "Guide to the Syrian Rebels" [http://www.bbc.com/news/world-middle-east-24403003](http://www.bbc.com/news/world-middle-east-24403003).] In the data employed here, I only consider fully autonomous organizations (i.e. those that are not subsidiaries of other groups). I do this in part for practical reasons, but also because generally lack the ability to engage in lasting cooperation with other groups, separately from the decisions made by the parent organization. If a faction splinters from its parent and becomes independent, however, they enter the data. This definition yields a set of 29 organizations that are active at some point in the conflict.
+
+## The Data
+
+I employ a compilation of existing and original data that on the Syrian conflict. The data cover the period March 15, 2011 to September 30, 2016, and as noted above, includes the 29 non-state actors that are clearly independent from other groups at some point during the conflict.[^Some became independent by splitting from a parent organization, and others were independent at some point but were later absorbed by a larger organization.] This includes all non-state actors that have engaged in violence in Syria. Thus several groups that did not originate in Syria are included, such as Hezbollah (Lebanon) and the Islamic State (Iraq). It should be noted that I include several actors that have to this point fought mainly on the side of the government, including Hezbollah and several Iraqi Shiite groups. I do this for two reasons. First, there are numerous cases of pro-government actors defecting to the rebel side, and vice-versa [@Staniland2012d]. Second, while the conflict between the Assad regime and various rebels is obviously a central dimension of the war, in many locales the primary opponent for rebels is the Islamic State (IS). Thus it is quite conceivable that these pro-Assad actors might form alliances with anti-Assad forces, either due to a realignment in the conflict, or more likely, to fight against IS. Excluding such organizations does not substantially alter my results.
+
+The primary source of the data is the Stanford Mapping Militant Organizations Project^[[http://web.stanford.edu/group/mappingmilitants/cgi-bin/](http://web.stanford.edu/group/mappingmilitants/cgi-bin/)], which I used to define the universe of independent rebel groups, and provided the majority of the alliance ties in the data. I supplement this with my own codings of additional alliances and several covariates based on news articles procured through LexisNexis and reports from think tanks including the Institute for the Study of War and the Carter Center. The complete list of included groups is presented in Table \@ref(tab:members) and the network of alliances is plotted in Figure \@ref(networkplot). As the figures make clear, the pattern of alliances changes considerably over time, with many new alliances forming over the course of the conflict, and several existing alliances crumbling.
+
+```{r dataprep}
+source("syria_dataprep.R")
+```
+
+```{r members}
+cov <- read.csv("~/Box Sync/ISAMW16/isamw16_analysis/old/syria_covariates.csv")
+names <- cov[,1:2]
+colnames(names) <- c("Group Name", "Abbreviations")
+library(xtable)
+options(xtable.comment = FALSE)
+print(xtable(names, caption='Non-State Actors in the Syrian Civil War', label="tab:members"), include.rownames=F)
+# knitr::kable(names, caption='Non-State Actors in the Syrian Civil War')
+```
+
+## Dependent Variable
+
+My dependent variable is military cooperation between rebel groups.^[Technically, as noted below, it is the network of military cooperation between rebel groups.] This includes three types of relationships. One is battlefield coordination, which is defined as one or more instances in which two groups attack the same opponent at the same place and time, and in which there is evidence of joint planning. Second are explicit statements of alliance, which could entail high degrees of integration, such as the formation of umbrella organizations, or less formal statements of common goals or enemies or agreements to provide military aid. Finally, a few groups are connected through formal affiliations. For example, until earlier this year, Jabhat al-Nusra was the Syrian affiliate of al-Qaeda.
+
+```{r networkplot, fig.cap='Alliances in the Syrian Civil War', fig.height=9}
+# par(mfrow=c(3,2),mar=c(2,1,2,1),oma=c(3,1,3,1))
+par(mfrow=c(3,2), mar=c(1,1,1,1))
+
+plot(network.extract(syrnet, at=2011), displaylabels=T, main="2011", vertex.cex=1.5, edge.col="grey75", vertex.col="steelblue", edge.lwd=3, pad=3)
+plot(network.extract(syrnet, at=2012), displaylabels=T, main="2012", vertex.cex=1.5, edge.col="grey75", vertex.col="steelblue", edge.lwd=3, pad=3)
+plot(network.extract(syrnet, at=2013), displaylabels=T, main="2013", vertex.cex=1.5, edge.col="grey75", vertex.col="steelblue", edge.lwd=3, pad=3)
+plot(network.extract(syrnet, at=2014), displaylabels=T, main="2014", vertex.cex=1.5, edge.col="grey75", vertex.col="steelblue", edge.lwd=3, pad=3)
+plot(network.extract(syrnet, at=2015), displaylabels=T, main="2015", vertex.cex=1.5, edge.col="grey75", vertex.col="steelblue", edge.lwd=3, pad=3)
+plot(network.extract(syrnet, at=2016), displaylabels=T, main="2016", vertex.cex=1.5, edge.col="grey75", vertex.col="steelblue", edge.lwd=3, pad=3)
+```
+
+## Independent Variables
+
+*Rebel Goals* Hypotheses 1 and 3 expect that alliances should be most likely between rebel groups that share similar goals, with the effect differing depending on the type of goal. I thus code the primary goal of each group, which are coded from manifestos, public statements, and group websites. This coding is highly specific to the Syrian context, and takes on one of the following values. Groups with "moderate" aims seek to overthrow the government, but tend to have few other strongly-held beliefs. "Islamist" groups seek to give Islam a greater role in public life, but under my definition do not aim to fundamentally change the boundaries of the polity. "Jihadist" groups are essentially a more extreme version of Islamists --- they adhere to strict interpretations of holy texts, and tend to be more accepting of extremist tactics such as terrorism and civilian targeting. Still more extreme are groups pursuing a "Caliphate" --- while they may share many beliefs with Islamists and jihadists, these groups differ in that they aim to replace the existing polity with an Islamic Caliphate covering a much broader area. Finally, there are two categories of groups primarily aimed at advancing identity-based interests: "Shiite Interests" and "Kurdish Interests."
+
+*Troop Strength* Hypothesis 2 predicts that stronger groups will be less inclined to form alliances than weaker ones. To test this, I include estimates of the number of troops each rebel group has at their disposal. Unfortunately this is a static measure, as for most groups estimates are available only once or twice.
+
+*Predominant Religion* I code the predominant religion in each group, distinguishing between Sunni and Shia Muslims. When the demographics of the broader group are not available, I make a coding based on the group's leadership.
+
+*Territorial Aims* I code a binary indicator of whether a group seeks control of a territorial unit other than the current configuration of the state. For instance, a Kurdish state or Caliphate.
+
+*Political Wing* I include an indicator of whether a group in engages in non-violent political activity. This can include running candidates in elections, as Hezbollah does, or governing a territorial area, as IS does. This variable might proxy for the centrality of political goals to a group's mission, and may account for alternative mechanisms of alliance formation, such as participation in a government in exile.
+
+## The Model
+
+To make statistical inferences about the determinants of the Syrian alliance network, I employ an extension of the increasingly popular Exponential Random Graph Model (ERGM). The ERGM uses Monte Carlo Markov Chain maximum likelihood estimation to assess the effect of various actor attributes and network dependencies on the formation of the observed network. Ultimately, it allows one to make inferences about the probability of a tie between two nodes given the values of their covariates. As I have a network that is observed annually for six years, I use the Temporal Exponential Random Graph Model extension, which allows one to control for temporal dependence in network ties. The network approach is necessary because a standard regression model likely could not account for dependence between dyads. For example, if actors A and B share ties and A and C share ties, the probability of a tie between B and C is likely not independent of the other two decisions. The TERGM can account for these sorts of dependencies.
+
+I treat alliances as undirected ties. I include parameters for several network effects that might account for the observed structure. This includes a triad effect to account for the propensity fully closed triads in the network (i.e. connections between A, B, and C). In addition I account for the propensity toward three trails --- connections between three nodes (i.e. i is connected to j, and j is connected to k). Finally, I account for the number of two stars --- open triads in which i is connected to j and j is connected to k, but k is not connected to i. Numerous other network effects, such as the geometrically weighted edgewise shared partner distribution, were considered but were found to be not statistically significant.
+
+<!--chapter:end:formation_design.Rmd-->
+
+# Results
+
+The results are presented in Table \@ref(tab:models), and in Figures 1-3. The TERGM estimates are logged odds ratios, and thus can be interpreted in an identical way to logit estimates. Bootstrapped 95% confidence intervals are in parentheses. Model 1 includes measures of whether the members of each dyad share the same value on various measures. Model 2 disaggregates the political objective variable into specific categories, to examine whether any particular goals drive the relationship. Model 3 replicates Model 1, but excludes the pro-government groups.
+
+Hypothesis 1 predicts that groups with similar political objectives will be more likely to form alliances than other dyads. I am able to reject the null hypothesis in this case, as the 'Same Goals' coefficient is positive and statistically significant in Models 1 and 3. Furthermore, the substantive effect is large. Alliances are quite rare among groups without similar goals - a probability of just 0.02 (based on Model 1). Moving from having differing goals to the same goals raises the probability to 0.14. Model 2 suggests that this relationship is driven by Jihadist dyads. Shared goals of a caliphate or Islamist policies do not have a statistically significant relationship with alliance ties, while shared Jihadist goals have positive and significant relationship with alliances.
+
+Hypothesis 2 predicts that more powerful groups will be less likely to form alliances than weaker groups. Instead, Troop Strength has a significant positive relationship with alliance formation in Model 1, and is not related in Models 2 and 3. Even in Model 1, the substantive effect is modest. A one-unit increase in the logged number of troops increase the probability of an alliance by roughly 0.02. I also examined whether similarity in troop strength predicted alliance ties, defining similarity has having a difference in rank of less than or equal to 5 on the troop strength measure. This parameter is not significant in Models 1 and 2, but has a significant negative relationship in Model 3. This suggests that alliances are uncommon among groups that are near parity in size, and are more likely among groups that differ in power.
+
+Hypothesis 3 predicts that groups representing the same social group should be likely to have ties. As there is very little ethnic diversity among the Syrian rebels, I examine the role of shared religious identities. This coefficient is not statistically significant in either Model 1 or Model 3. Thus I fail to reject the null for Hypothesis 3. This is likely a reflection of the fact that there is not a high degree of diversity in the Syrian conflict. Most rebel groups are predominantly composed of Sunni Muslims, and thus religion is perhaps not a particularly salient consideration in alignments. This analysis should be replicated in other cases that feature greater ethnic or religious diversity before this hypothesis is considered to be definitively falsified.
+
+Finally, Hypothesis 4 predicts that groups claiming specific territories in pursuit of secessionist or irredentist goals will be unlikely to form alliances. The 'Both Territorial Aims' variable in Models 1 and 3 and the 'Both Caliphate' variable in Model 2 each should capture this dynamic. None of them are statistically significant, however. It would seem that some dyads with territorial aims are able to form alliances, leading to the null result. One interpretation with regards to my theory is simply that more nuance is needed, as some factor allows some dyads to overcome the incentives against cooperation. One of the alliances accounting for this pattern is between former al-Qaeda affiliates IS and the Nusra Front. It should be noted that the two groups have become enemies in recent years, and thus my prediction might hold true on a more limited subset of the data.
+
+```{r models, results='asis'}
+library(xergm)
+library(texreg)
+
+#creat networkdynamic object
+setwd("~/Box Sync/ISAMW16/isamw16_analysis/")
+source("syria_dataprep.R")
+#
+m10 <- btergm(syria ~ edges + triangle + threetrail + twopath + smalldiff('rtroops.low', 5) + nodecov('ltroops.low') + nodematch('main.objective') + nodematch('territory') + nodematch('religion') + nodefactor('polwing'), R = 1000, parallel = 'multicore', ncpus = 3)
+#summary(m10)
+#plotreg(m10, omit.coef = 'edges')
+#g10 <- gof(m10)
+
+m11 <- btergm(syria ~ edges + triangle + threetrail + twopath + smalldiff('rtroops.low', 5) + nodecov('ltroops.low') + nodematch('caliphate') + nodematch('jihadist') + nodematch('islamist') + nodefactor('polwing'), R = 1000, parallel = 'multicore', ncpus = 3)
+#summary(m11)
+#plotreg(m11, omit.coef = 'edges')
+#g11 <- gof(m11)
+
+m12 <- btergm(syria.nonshia ~ edges + triangle + threetrail + twopath + smalldiff('rtroops.low', 5) + nodecov('ltroops.low') + nodematch('main.objective') + nodematch('territory') + nodematch('religion') + nodefactor('polwing'), R = 1000, parallel = 'multicore', ncpus = 3)
+
+labels <- c("Edges","Triads", "3 Trails", "2 Stars", "Troop Similarity", "Troop Strength", "Same Goal", "Both Territorial Aims", "Same Religion", "Political Wing", "Both Caliphate", "Both Jihadist", "Both Islamist")
+
+texreg(list(m10,m11,m12),caption = 'TERGM Models of Alliance Formation', custom.coef.names = labels, label="tab:models")
+```
+
+For robustness I have included a one-period lag of the network ties. This does not substantially alter the results. In addition, I have explored the robustness of the results to the choice of time periods. Dividing the data into two year blocks (2011-2012, 2013-2014, 2015-2016) again yields similar results.
+
+```{r regplot1}
+texreg::plotreg(m10, omit.coef = 'Edges', custom.model.names = "Model 1", custom.coef.names = c("Edges","Triads", "3 Trails", "2 Stars", "Troop Similarity", "Troop Strength", "Same Goal", "Both Territorial Aims", "Same Religion", "Political Wing"))
+```
+
+```{r regplot2}
+texreg::plotreg(m11, omit.coef = 'Edges', custom.model.names = 'Model 2', custom.coef.names = c("Edges","Triads", "3 Trails", "2 Stars", "Troop Similarity", "Troop Strength", "Both Caliphate", "Both Jihadist", "Both Islamist", "Political Wing"))
+```
+
+```{r regplot3}
+texreg::plotreg(m12, omit.coef = 'Edges', custom.model.names = 'Model 3', custom.coef.names = c("Edges","Triads", "3 Trails", "2 Stars", "Troop Similarity", "Troop Strength", "Same Goal", "Both Territorial Aims", "Same Religion", "Political Wing"))
+```
+
+<!--chapter:end:formation_results.Rmd-->
+
