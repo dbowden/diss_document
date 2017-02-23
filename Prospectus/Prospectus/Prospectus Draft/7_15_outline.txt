@@ -1,0 +1,41 @@
+#Theory Outline
+
+##Stage 1: Protests -> Rebellion
+
+- There are several potential origins of rebellion:
+    + Protests - these can be distinct if they are over different issues, occur in different places, or different times.
+    + Transnational rebellions
+    + Coups
+    + Militias
+
+- Why protesters are attractive rebel recruits:
+    + Costly signal of ideology
+    + Selected out as (at least somewhat) risk-acceptant, non-free riders
+    + Participation may lower cost of participating in rebellion - now on government lists, property damage, etc.
+    + Uncertainty about government response/strength reduced
+
+- But for dissent to lead to rebellion, a) their grievances must be sustained, b) they must not be sufficiently addressed by the government so as to reduce the value of rebellion, and c) numerous collective action problems must be overcome (from Licklider):
+    + In short, there is a free-riding problem. Why take on the risks of participating in rebellion when one is likely to make little difference the probability that the benefits of successful rebellion will be enjoyed.
+    + Collective action problems vary on two dimensions - unplanned vs planned order, and spontaneous vs contingent order. These form a pure "market" setting (unplanned and spontaneous), with little probability of CA, and several augmentations - reason/contract, tradition/community, or force/hierarchy.
+    + Elites pursue one or more strategies to solve CA problem: increase benefits, lower costs, increase resources, improve productivity of tactics, increase the probability of winning, increase probability of making a difference, manipulate selective incentives, etc.
+    + At group level, incentive to free ride off of other rebel groups.
+    
+- Dissent is organized into one or more groups. The boundaries of these aggregations depend on the strategies adopted by rebel elites to solve collective action problems:
+    + Resources / private benefits. If there are multiple resource-based groups, there are likely multiple geographic concentrations of resources. We should see territoriality here.
+    + Ethnicity / social structure. 
+    + Coercion
+
+- There is a dynamic element - simultaneous group formation is different from a decision to form a new group vs join an existing one.
+    + Existing groups have revealed things about their tactics, ideologies, prospects
+    + New groups have a honeymoon effect
+
+##Stage 2: Rebellions -> Conflict / No Conflict
+
+
+##Ongoing Issues
+- What about late joiners? At the dyadic level the two stage process holds. It is likely different for simultaneous formation vs. 
+
+#Contribution
+
+- Enhances our understanding of conflict escalation, origins of rebellion
+- 

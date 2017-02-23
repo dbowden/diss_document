@@ -1,0 +1,206 @@
+# Case Studies
+
+## Burma/Myanmar
+
+### Conflicts - 1 government conflict, 11 separatist
+- Government, 1948-1994 - 4 dyads
+- Wa, 1997 - 1 dyad
+- Karen, 1948-2013 - 4 dyads
+- Arakan, 1948-1994, 7 dyads
+- Mon, 1949-1996, 4 dyads
+- Kokang, 2009-2014, 1 dyad
+- Lahu, 1973-1982, 1 dyad
+- Palaung, 2013-2014, 1 dyad
+- Kachin, 1948-2013, 2 dyads
+- Karenni, 1957-2005, 1 dyad
+- Shan, 1959-2013, 11 dyads
+- Nagaland (India, gov a 2nd party), 1995-2007, 1 dyad
+
+### General
+- Independent since 1948, previously a British colony.
+- Nominally a parliamentary democracy, but direct military rule from 1958-1960 and 1962-2011.
+- Communist and Rohingya rebellions even prior to independence.
+- Ceasefires have often required participating rebels to fight non-participating rebels.
+- No comprehensive peace agreements with DDR, guarantees, etc.
+
+### Government, 1948-1994 - 4 dyads
+- Government vs. Communist party (CPB), 1948-1989 [War]
+- Government vs. All Burma Students Democratic Front, 1990-1994 [Minor]
+
+#### Pre-Independence-Early Independence
+- Origins in anti-colonial movement of 1930s. Communists with support from Japan began fighting British, but later realigned to help Britain defeat Japan.
+- Post-WWII, pro-independence communists split into Red Flag and White Flag factions. CBP-WF was banned from independence coalition for refusal to work with British, and after independence leaders were arrested and rest of group fled to rural areas to begin rebellion.
+- White Flag operated in North, Red Flag in Irrawaddy Delta, and were joined by many government army defectors. Karen and Kachin militias supported government.
+- Karen militias later joined Karen conflict. Communist-Karen coalition took nearly the entire country, but too disorganized to make final push to take central Rangoon.
+- Government used alliances with local warlords to regain many areas. CPB-RF allied with ethnic rebels (KNUP and ANLP).
+- Leftist parties did well in 1957 elections, leading some rebels to accept amnesty. CPB left with 1000 soldiers in mountains.
+
+####Post-Military Coup
+- A coup in 1962 established a "Burmese Socialist" military regime.
+- In 1968 China backed an invasion by CPB exiles, which took control of the northeast.
+- In 1970 the government defeated CPB-RF, leading to a permanent CPB withdrawal from central Burma.
+
+####Collapse of CPB
+- After Deng took power, China support for CPB was withdrawn.
+- Much of CPB membership was drawn from ethnic militias that had little connection to communist ideology or representation in leadership.
+- Many members wanted to support pro-democracy protests.
+- Kokang and Wa militias defeated the CPB in 1989.
+
+####Student Insurgency
+- Students protested hyperinflation starting in 1987. After a brutal crackdown thousands more mobilized to demand democracy.
+- After an even larger crackdown (allegedly 3,000 killed in Rangoon) in Aug 1988, students fled to the countryside.
+- With support of ethnic militias, ABSDF was formed.
+- Initially, ABSDF supported separatist campaigns of Karen, Kachin, Karenni, and Mon.
+- Government captured ABSDF headquarters in 1997. Members demobilized or joined ethnic militias.
+
+####Analysis
+- Previous activity does indeed play a big role. Initial CPB members had experience in anti-colonial conflict. Many of the separatist groups gained experiencing fighting with the CPB. ABSDF did not have direct experience, but received substantial support from experienced separatist militias.
+- Japanese support for pro-independence group, Chinese support for CPB may have played role in maintaining unity. Each splintered shortly after support withdrawn. Could this be the dynamic part of the story?
+- The interaction between general rebel groups and separatist groups is interesting. They clearly do have common interests.
+- 3/4 dyads are different factions of the CPB - Red Band and White Band treated as separate dyads. The diversity here comes from fragmentation.
+
+###Karen, 1948-2013 - 4 dyads
+- Government-KNU 1948-2011 [Few years of War]
+- Government-KNUP 1960s-1975 [minor]
+- Government-DKBA 5 2010-2013 [minor]
+- Government - God's Army 2000 [minor]
+
+####Pre-Independence
+- Ethnic group concentrated in SE (Irrawaddy Delta), along Thai border.
+- Historically subjugated and/or enslaved by neighboring Mon and Siamese kings.
+- But later held prominent positions in British colonial administration and military.
+- Partly for this reason, and because Burmese independence emphasized Burmese nationalism, Karen were targeted during war of independence.
+- But Britain did not grant the Karen request for a separate independence, leading to the formation of the Karen National Union.
+
+####Early Independence
+- Karen National United created militia to defend Karen against communal violence.
+- PVO-KNU ethnic clashes erupted
+- KNU with deserting Karen government soldiers took much of eastern and central Burma between 1948-1952.
+- Government proposed an autonomous Karen state, but it lacked access to the sea, and covered only 1/3 of the Karen population in Burma.
+
+####1960's-70's
+- Government counterattack forced KNU into separate strongholds in Irrawaddy Delta and eastern hills.
+- Delta group formed alliance with CPB-White Flag, and hoped for support from China. KNU Party created.
+- Eastern hills group formed alliance with Kuomintang forces, hoping for support from US.
+- KNUP began pursuing socialist state, leading to concerns that KMT and US would withdraw support.
+- Isolationist policies allowed KNUP to profit on the black market, and political crackdowns sent large exile population to KNUP territory.
+- Some KNUP elites broke off to form anti-Communist KNUF (later KNU), in hopes of securing US support.
+- A successful government campaign against KNUP led factions to reconcile in 1975.
+- Throughout their history KNU has pursued alliances, especially with other separatists.
+- Burmese government has employed "Four Cuts" strategy against separatists, aiming to force civilians out of rebel territory. KNU has benefited from refugee camps in Thailand.
+
+####1980's-90's
+- KNU and Mon separatists engaged in combat over illicit revenues.
+- A split between Christians and Buddhists in the KNU intensified. Many Buddhists left KNU to form the Democratic Kayin Buddhist Army in 1994.
+- The DKBA signed a ceasefire with the government in 1995 and helped govt purse KNU. The 5th Brigade of DKBA split and began insurgency against the govt in 2010.
+- A faction called God's Army broke off in 1997 with the aim of providing better protection to civilians, but quickly fled to Thailand.
+- Some KNU members formed KNU-Peace Council to pursue goals peacefully in 2007.
+
+####2000's
+- Brief ceasefire in 2003-2004
+- Joint government-DKBA campaigns captured KNU bases, forced them into guerrilla tactics.
+- DKBA 5 and KNU have launched joint attacks recent years.
+- DKBA 5 signed a ceasefire in 2011, and the KNU in 2012.
+
+####Analysis
+- The complexity here is mostly driven by fragmentation of KNU.
+- These splits seem to be driven largely by cross-cutting ideological/identity splits. The group is organized on the basis of Karen identity, but had major splits on communist/anti-communist and Christian/Buddhist divides. Also some disagreement over tactics/willingness to form peace agreements.
+- External support again plays an interesting role. Differing sources of potential support led to KNU/KNUP split.
+
+###Karenni, 1957-2005, 1 dyad
+- Government-KNPP [minor]
+
+####Pre-Independence
+- Karenni are close relatives of Karen.
+- Had semi-autonomy during British rule.
+- Fought with British in WWII.
+- Pursued independence separate from Burma, but Burma's proposal included a Karenni state.
+- Some Karenni leaders agreed to a proposal in which they would be a semi-autonomous region of Burma, but this led to an internal split and protests.
+
+####Early Conflict
+- Karenni States Independence Army (UKSIA) mobilized in 1948.
+- UKSIA allied with KNUP.
+- Later a Karenni National Progressive Party (KNPP) was formed to promote distinct political agenda from KNUP.
+- KNPP has contributed troops to Karenni, Shan, and CPB, though its own activities are somewhat minor in severity.
+- The divide between Chinese-backed CPB and anti-communist KNU led to a split in the KNUP. The communist faction signed a ceasefire in 1994. The other faction remained active, though it officially accepted a federal system in 2005.
+- There is continued low-level violence, as KNPP collaborates with KNU and Shan groups.
+
+####Analysis
+- This shows up as dyadic in the data, but that's not really true. Once again, there was fragmentation.
+- Once again, outside support seemed to drive the split - some sought out communist support, others US.
+
+###Shan, 1959-2013, 11 dyads
+
+####Background and pre-independence
+- Shan is in Northeast, covers almost 1/3 of Burma's territory.
+- Linguistic minority, primarily Buddhist.
+- Part of British territory in colonial era.
+- Local leaders agreed to be part of Burma on the conditions that they have internal autonomy and the right to secede in 10 years.
+
+####Early independence
+- KMT forces came over the border and established camps in 1949. The Burmese military and local Shan forces they recruited as paramilitaries resisted the KMT presence. Shan would lose its federal status after the military coup in 1962, and government forces essentially occupied the region, ostensibly to expel the KMT.
+- Student groups formed emphasizing national identities. The government refused to discuss the Shan independence option.
+- An underground resistance movement formed in 1958, the Noom Suik Harn.
+- NSH quickly fragmented, as the group was divided on the question of whether the sawbwa system (local hereditary leaders from pre-independence) should be reinstated, and there were clashes over control of the drug trade.
+- In 1964 the 3 largest Shan groups formed an alliance: Shan State Army.
+- The Shan United Revolutionary Army would later break off from SSA.
+
+####Late 1960's-1970's
+- A Chinese-backed CPB offensive expelled the government from virtually all Shan territory between 1968-1971. A pro-communist Shan faction supported this campaign.
+- Another faction continued to receive support from the KMT.
+- Eventually the Shan independence movement was represented mostly by warlord-led factions SUA and SURA, who were at least partially motivated by a desire to control the drug trade. They fought several smaller Shan groups for control of border regions. Later they merged to form the MTA.
+- The CPB disintegrated in the 1980's, and the Shan members formed the Shan State Army-North.
+
+####1980's-90's
+- Most Shan groups signed ceasefires w/ government.
+- Most of the remainder joined MTA.
+- The United Wa State Army agreed to help the government fight MTA, who were also competitors in the drug trade.
+- MTA leader signed a ceasefire in 1995, and from that point was involved only in the drug trade.
+- Shan State Army-South Command was the one of the only Shan group to continue fighting after 1995. They fought both the government and UWSA.
+- SSA-S originally operated out of Thailand, but now controls a substantial portion of Shan state.
+- SSNA signed ceasefire but were allowed to keep weapons, and later joined SSA-S.
+
+####Analysis
+- Natural resources play an interesting role here - they seem to incentivize modest group size so as to minimize shares of drug wealth.
+- Lots of fragmentation - at various times the Shan movement has been consolidated to one or two groups, but it often splits. Some of the splitting seems to be on the basis of willingness to adhere to ceasefires. But preserving shares of drug revenues appears to be a big factor as well.
+
+###Arakan, 1948-1994, 7 dyads
+
+####Pre-Independence
+- West coast on the Bay of Bengal (now mostly Rakhine state).
+- Historically an independent Muslim kingdom with ties to Bengal.
+- Muslim population is the Rohingyas.
+- Influx of Indian Muslims to the region during the colonial period, and prominence in business, led to violent anti-Muslim riots by ethnic Burman.
+- Pursued separate independence, but cooperated with Burman independence movement.
+- Fought with the Japanese and against the British in WWII. But after it became clear that Japan intended to keep the territory, Burman and Arakanese nationalists unified to form Anti-Fascist League and fought with the British.
+- During Japanese occupation, many Muslims fled and Japan granted property to Buddhists, creating tensions upon return of Muslims.
+- The Arakan People's Liberation Party was formed in 1947, which cooperated with CPB-Red Flag. They initially considered irrendentism with East Pakistan, but were rejected.
+- Muslim-Buddhist communal violence led to the creation of the Mujahid party, which originally was a self-defense militia, but later engaged in rebellion across Arakan.
+
+####Early Conflict
+- APLP and Mujahid formed alliance to expel Burmese forces from Arakan and create two separate independent states. The alliance along with communist factions had mostly expelled government forces by late 1948.
+- Communal violence prevented sufficient cooperation to establish lasting control over the area. Government counteroffensives retook the territory, with the Mujahid focusing on controlling rice smuggling areas.
+- APLP disbanded with a government amnesty in 1958. The Mujahid surrendered to the government in 1961.
+
+####1970's-80's
+- Numerous small Arakan insurgent groups formed, but they engaged in little fighting against the government. They mostly participated in communal violence and violence against civilians.
+- These group did create a largely political alliance in 1988.
+
+####1990's
+- Unrest in Arakan increased following student protests in 1988.
+- Government crackdown and occupation led the Rohingya to flee to Bangladesh.
+- 2 Rohingya groups carried out attacks against the government in 1991.
+
+####Analysis
+- Not totally clear from the narratives, but it seems as though fragmentation occurred partly in response to battlefield losses, consistent with Christia.
+- There is also a huge Muslim-Buddhist divide among Arakan separatists.
+- Beyond that it is not clear why they are so many groups. Why multiple Rohingya groups in the 90's, for example?
+
+###Analysis
+- Lots of interesting interaction between the various rebel/secessionist groups. The secession movements provided safe haven, planning aid, and sometimes troops to the general rebel groups. Related secessionist groups sometimes helped each other, as well (such as the Karen and Karenni).
+- There seems to be a resource curse for rebels. Participation in crime led to fragmentation. Pursuit of external support also led to divisions among movements.
+- Divides tended to occur over cross-cutting divisions. Muslim-Buddhist divides or communist-anti-communist divides among linguistic groups. It seems as though there is a 'honeymoon effect' which allows groups to cohere for some time, but eventually they must face the dividing lines. Relationships with other actors seem to activate different identities - pursuit of external support, or of alliances with other rebel/secessionist groups.
+- It might be useful to think about groups on a two-dimensional plane. One dimension is the degree to which they are pursuing public vs. private goods. The other the number of identities on which they overlap (language, religion, ideology, class/sector, etc.). Groups pursuing private benefits that have lots of divisions are at high risk of fragmentation. Homogenous groups pursuing public goods are at low risk. The corner cases are somewhere between.
+- Fragmentation also seems to be most likely after battlefield losses. It's unclear whether this fits Christia's model of power politics, or if it is more in line with a spolier logic - the moderates accept ceasefires, while hardliners want to keep fighting.
+
+##Chad

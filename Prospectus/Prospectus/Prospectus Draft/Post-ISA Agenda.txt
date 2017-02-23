@@ -1,0 +1,26 @@
+Post-ISA Agenda
+
+1. Merge anything from previous prospectus draft that can be used into ISA paper
+
+2. Reframe for broader project - intro, lit review
+
+3. Expand theoretical framework. Ideological differences, hawk/dove splits.
+
+4. List of factors that predict each phenomenon - fragmentation, joining
+
+4. Add theory for remaining analyses, focusing on network theory
+
+5. Research design for remaining analyses
+
+6. Possibly pilot study of network stuff
+
+7. Add conflict management to lit review
+
+Chapters:
+
+1. Static network attributes and rebel structure
+2. Dynamics - outside support
+3. Case study
+4. Extensions - behavior
+
+Is initial rebellion structure carefully calculated/endogenous to pre-war network? Then outside support and new groups disrupt it?

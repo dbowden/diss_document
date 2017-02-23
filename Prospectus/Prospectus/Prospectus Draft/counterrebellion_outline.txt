@@ -1,0 +1,51 @@
+#Theory Outline
+
+## Framing
+
+- Rebel groups are often the de facto government in some areas
+- Rebel victories are fairly common, this can tell us about how they might govern and be challenged following wars
+- Increasing share of violence worldwide
+
+## Empirical Background
+
+- 133 dyads (224 conflict years) fit the pattern since 1989 - fought a non-state actor that was fighting a government (UCDP). ACLED should capture this as well.
+- ISIS - 1920 brigades, Al-Shabaab - ASW, LRA - SPLM, LTTE - LTTE-K, M23 - M23-R, Mayi Mayi - RCD, KDP - PUK, AUC - FARC, several Hezbollah dyads, several Taliban dyads
+- Median fatalities = 64, mean = 140, max = 2732
+- 34 of these dyads involved 2 groups that were each fighting a government
+- 567/1281 dyad years since 1989 involve a rebel group that is also in a non-state conflict. 89 rebel groups account for this.
+- 215 rebel groups in the same period were not involved in a non-state conflict.
+- There are 176 total groups involved in this conflicts.
+- 101 of the country years (51 dyads) involve a group that splintered from another.
+- In 24 of these dyads, one splintered from the other.
+- Cases w/ more that 1,000 total fatalities:
+    + Sudan: SPLM-SSDF (both wanted control of South, SSDF a gov ally)
+    + Colombia: FARC-AUC (AUC formed by drug cartels, accused of collaborating with gov)
+    + Myanmar: Mong Tai/Shan Army-Wa State Army (WSA allied w/ gov)
+    + Iraq: KDP-PUK (two main Kurdish parties)
+
+## Analysis 1: The Entry of Counterrebellion Groups
+
+### Processes:
+    - Organic - civilian-based grievances
+    - 
+
+### Societal Characteristics - social base for additional rebellions
+
+### Conflict Behavior - grievances
+
+### Third Parties
+
+### Ideological Differences
+
+### Expected Value - greed - resources not held by govt
+
+## Analysis 2: The Character of Counterrebellion Conflict
+
+- Does fighting occur in core rebel territory, or along new frontiers?
+
+
+
+
+- Emergence of counterrebellion
+- States & counterrebellions
+- Conflict outcomes

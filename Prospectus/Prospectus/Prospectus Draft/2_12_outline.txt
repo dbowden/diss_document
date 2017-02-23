@@ -1,0 +1,35 @@
+New possibility:
+
+1. Analysis of attributes of groups that do and do not experience joining
+
+2. Temporal dimension - is there anything that predicts when these groups will join? A certain level of success against the govt by first group (or lack thereof)? Violence against civilians?
+
+3. Spatial dimension - where do they go? To the resources? To ethnic areas? Away from existing groups, or to fight them?
+
+4. ICEWS interactions between groups. Are there discrete events that reveal Rebel ideology? Could do discontinuity or time series.
+
+5. Possibly code a variable of how clearly defined each group's political goals are
+
+6. Are joiners more likely to be included in peace processes?
+
+7. Do protest episodes predict joining?
+
+8 . Pre-war characteristics - are some rebellions more popular than others? Are there cases where rebellion occurs but society as a whole contains few dissidents? Pre-war democracy, human rights, economic performance, protest activity might be useful here.
+
+9. Are resource-endowed groups less ideological
+
+10. Resource curse for rebels. Are rebel groups smaller when they have resources?
+
+11. Logic of joining vs. initiating
+
+12.  What kinds of groups will have ability to mobilize during a war?
+
+13. Use MAROB data for potential joiners? Or ICEWS if there are groups that transition to violence?
+
+14. Extensions: how do joiners contribute to the conflict? Do they fight lots of battles/add to intensity? Undermine state capacity? Participate in peace process?
+
+15. Do resources result in smaller group sizes? How do groups like RUF overcome this effect? Organizational resources? Floor on the effect - need to be big enough to keep control. Maybe a U-shaped effect? Groups with huge amounts of resources like RUF avoid this problem. At the extreme end resources might overcome other divisions.
+
+16. Dissident network varies on ideological preferences, and on propensity for violence - initiators vs. joiners.
+
+17. Does the presence of a resource-based group create motive or opportunity? Or both?

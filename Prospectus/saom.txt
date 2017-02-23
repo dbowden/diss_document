@@ -1,0 +1,22 @@
+# SAOM Parameters
+
+## Individual Network Effects
+
+- Tendency toward more nodes
+
+## Dyadic effects
+
+- Homophily
+- Reciprocity
+- Geographic distance
+- Relationship 
+
+## Covariate Effects
+
+- Attracted to groups using violence
+
+# Complications
+
+- Government repression / general level of violence
+- Intra-rebel violence as a deterrent to free riding
+- External actors

@@ -1,0 +1,4 @@
+#Possible Analyses for Pilot Study
+
+- Home range analysis - do groups occupy smaller ranges when there are more civilian casualties?
+- IV - civilian casualties spatially weighted by distance from centroid of group activity

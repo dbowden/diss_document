@@ -1,0 +1,11 @@
+#Hypotheses
+
+1. Network density (connections/possible connections) -> fewer groups
+2. Network modularity -> more groups
+3. Infighting -> new groups
+4. Changes in outside support network spill over to dissident network
+5. Government campaigns affect network, contingent on prior structure 
+6. Mediation calls -> more groups
+7. Pre-war network structure determines prob of changes in structure
+
+Resource distribution in a network?

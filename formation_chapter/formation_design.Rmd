@@ -42,13 +42,23 @@ plot(network.extract(syrnet, at=2016), displaylabels=T, main="2016", vertex.cex=
 
 *Rebel Goals* Hypotheses 1 and 3 expect that alliances should be most likely between rebel groups that share similar goals, with the effect differing depending on the type of goal. I thus code the primary goal of each group, which are coded from manifestos, public statements, and group websites. This coding is highly specific to the Syrian context, and takes on one of the following values. Groups with "moderate" aims seek to overthrow the government, but tend to have few other strongly-held beliefs. "Islamist" groups seek to give Islam a greater role in public life, but under my definition do not aim to fundamentally change the boundaries of the polity. "Jihadist" groups are essentially a more extreme version of Islamists --- they adhere to strict interpretations of holy texts, and tend to be more accepting of extremist tactics such as terrorism and civilian targeting. Still more extreme are groups pursuing a "Caliphate" --- while they may share many beliefs with Islamists and jihadists, these groups differ in that they aim to replace the existing polity with an Islamic Caliphate covering a much broader area. Finally, there are two categories of groups primarily aimed at advancing identity-based interests: "Shiite Interests" and "Kurdish Interests."
 
-*Troop Strength* Hypothesis 2 predicts that stronger groups will be less inclined to form alliances than weaker ones. To test this, I include estimates of the number of troops each rebel group has at their disposal. Unfortunately this is a static measure, as for most groups estimates are available only once or twice.
+*Troop Strength* @Horowitz2013 find that more powerful militant groups tend to have more allies. To account for this, I include estimates of the number of troops each rebel group has at their disposal. Unfortunately this is a static measure, as for most groups estimates are available only once or twice.
 
 *Predominant Religion* I code the predominant religion in each group, distinguishing between Sunni and Shia Muslims. When the demographics of the broader group are not available, I make a coding based on the group's leadership.
 
 *Territorial Aims* I code a binary indicator of whether a group seeks control of a territorial unit other than the current configuration of the state. For instance, a Kurdish state or Caliphate.
 
 *Political Wing* I include an indicator of whether a group in engages in non-violent political activity. This can include running candidates in elections, as Hezbollah does, or governing a territorial area, as IS does. This variable might proxy for the centrality of political goals to a group's mission, and may account for alternative mechanisms of alliance formation, such as participation in a government in exile.
+
+*Same Sponsor* @Bapat2012 find that outside states can facilitate cooperation by enforcing alliance agreements. I thus include a control for whether the members of a dyad share the same external sponsor. I code this variable as 1 if states receive support from at least one of the same outside states, and 0 otherwise.
+
+*Same Region* Given that battlefield collaboration accounts for a significant portion of the network ties in my data, it stands to reason that groups operating in the same regions will be more likely to cooperate than groups separated by physical distance. I code this measure as 1 if the members of a dyad have been involved in battles in at least one of the same regions (Eastern, Western, and Southern Syria, and Iraq), and 0 otherwise.
+
+*Same Civilian Targeting* A potential dividing line among rebels aside from ideology and identity is treatment of civilians. I include a dummy variable indicating whether the members of a dyad have the same treatment of civilians. It is coded as 1 if both have documented instances of violence against civilians, or neither have, and 0 if they differ on this question.
+
+*Natural Resources* Access to natural resources may alter a group's participation in alliances, as they are a power base that is subject to rival consumption. Indeed, rebels often fight over control of resources [@Fjelde2012]. I use a binary indicator to control for the effect of access to oil and drugs on a group's propensity to form alliances.
+
+*Foreign Fighters* The ability to draw recruits from abroad reduces the likelihood that a group will be in competition with others, and increases the likelihood that they will participate in alliances. I code this variable as a 1 if the groups draws at least a portion of its recruits from abroad, and 0 otherwise.
 
 ## The Model
 

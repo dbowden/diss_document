@@ -1,0 +1,6 @@
+Dissertation
+
+1. ISA paper - large-n broad overview w/ traditional methods
+2. Large-n network predicting group formation with triad closing or something of that nature. Maybe use ICEWS to id cases where nonviolent dissidents not represented by combatants.
+3. Burma case study
+4. Extension: comparing behavior of joining groups / fragments. Civilian victimization, participation in peace agreements, proximity to resources, other spatial attributes, duration, etc.

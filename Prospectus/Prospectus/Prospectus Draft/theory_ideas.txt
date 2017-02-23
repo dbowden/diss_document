@@ -1,0 +1,66 @@
+Theoretical Mechanisms
+
+#What Pulls Opposition Movements Apart
+- Geography - distance, rough terrain, etc.
+- Free-rider incentive
+- Different ideal points for new govt
+- Ethnic / linguistic / religious / class differences
+- Outside support
+- Private benefits (incentives to minimize groups size)
+- Desire to stay close to home, defend civilians (TITLE: How Far Are You Willing to Go?)
+
+#What Holds Them Together?
+- Ethnic ties
+- Other social structure - existing military or communal organizations
+- Strategic violence by rebels
+- Government behavior
+- Private benefits (incentives for current members to stay)
+
+#Other
+- In the process of mobilization for war, to what extent are rebel groups able to subsume existing organizations?
+- Does territorial control matter?
+- Contagion vs. competition dichtotomy from spatial lit
+
+# New Outline (2/10)
+
+- Framework: dissent is group of individuals in the country who are opposed to the govt and have some willingness to use violence. There is a distribution of ideal points regarding the make-up of new govt. Also vary on dimension of commitment to the cause. Dissidents want a group that is close to their ideal point, but also have free-rider incentives. Interaction between dissidents who are not original members of existing group and existing group.
+
+- I: Material? Micro? cleavages:
+    + Political goals vs. personal gain (resources)
+    + Civilian violence - this could be community defense, lowered barrier interacting with distance from existing groups (civilian deaths)
+    + Collective action across distance (distance from existing groups)
+
+- II: Political? Macro? cleavages:
+    + Differences in political goals (data collection)
+    + Hardliner/spoiler unhappiness with prior results (gleditsch data)
+
+#Two Pathways
+
+1. Based on actor data:
+
+- Weak groups
+- Groups with political wings
+- Transnational groups
+- Previously active groups
+
+2. Based on spatial data:
+
+- Civilian violence
+- Resources
+
+
+#Other projects
+
+1. Territorial change prequel paper
+2. Aid spatial paper
+3. Peacekeeping FDI paper
+4. Protest rebellion connection paper
+5. Public opinion towards rebel groups using social media data
+6. What does it take to get a seat at the table? Participation in violence and inclusion in peace talks - maybe using MAR or EPR?
+7. Violence against civilians and identities using survey data.
+8. Something with refugees/IDPs - how do they affect peace? What do they tell us about how other actors relate to civilians?
+9. Ships Passing in the Night - explaining the lack of conflict between rebels using lotker-volterra models.
+10. Pre-war crime statistics or survey results that would indicate level of interpersonal conflict, connected to conflict patterns.
+11. Social media data to construct actual dissident network for a country - how does connectedness matter?
+12. Borrowing costs - hard to do during civil wars, but maybe broader view of unrest?
+13. Forecasting conflict attributes - joiners, duration, severity, ceasefires, etc.

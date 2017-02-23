@@ -1,0 +1,114 @@
+---
+title: "Politics Among Rebels: The Determinants of Conflict and Cooperation Between Non-State Combatants"
+author: "David Bowden"
+documentclass: article
+fontsize: 12pt
+fontfamily: tgpagella
+geometry: margin=1in
+numbersections: true
+bibliography: /Users/david/Dropbox/library.bib
+csl: /Users/david/.pandoc/csl/apsa.csl
+header-includes:
+    - \usepackage{setspace}
+    - \doublespacing
+abstract: 
+	Rebel groups face a dilemma. On the one hand, pursuing control of natural resources, territory, and civilian populations within the country may be a good strategy for enhancing their strength relative to the government. On the other hand, this tactic often brings the risk of becoming entangled in conflict with other non-state actors, ultimately proving counterproductive. I argue that control of natural resources is often a worthwhile risk for rebels, particularly when they are losing the conflict. Non-state actors also experience conflicts of interest over control of territory, which tend to be acted upon by rebels that are experiencing success in the conflict. Under some circumstances, however, rebels are able to partition territory and access to resources, minimizing the scope of conflict with each other.
+    <!-- put Research Q in abstract -->
+---
+
+#Introduction
+
+Theories of civil war tend to assume a dyadic competition between a government and a single rebel group. The reality, however, is often more complex, as 89 rebel groups active between 1989 and 2014 (29% of all groups) engaged in conflict with another non-state actor.[^hook] Many of these conflicts have been severe, producing hundreds of fatalities and spanning several years. In the early 1990s, for example, over 5,000 fighters were killed as the rebel Sudan People's Liberation Movement (SPLM) battled the South Sudan Defense Forces (SSDF) battled for control of the southern regions of the country. Given that the SPLM ultimately aspired to overthrow the central government, fighting the SSDF would seem to be a suboptimal use of its resources. Why do some rebel groups encounter armed opposition of their own? What determines the intensity and form of these conflicts? Finally, how do these confrontations with non-state actors affect the outcome of a rebel group's conflict with the government?
+
+These questions are of substantial empirical, theoretical, and policy relevance. Several studies identify implications of multiparty conflicts. Civil wars featuring two or more non-state actors are more severe [@Cunningham2010a] and longer-lasting [@Akcinaroglu2012a] than dyadic conflicts. Yet, we know relatively little about why multiple armed groups emerge in certain conflicts, nor do we know how exactly these added actors contribute to conflict severity. Thus, understanding whether and how rebel interactions contribute to the overarching trajectory of conflict can help us to understand one of the most severe subsets of civil war.
+
+Additionally, the renewal of violence following a civil war is often driven by competition between former rebels as they struggle to share power in a peaceful setting [@Atlas1999]. Yet as @Auteserre2010 argues, peace operations often underestimate the importance of subnational dynamics in conflict. Understanding the conflicts that emerge between rebels and other subnational groups during wars might help us predict the conditions under which former rebels are likely to re-initiate a conflict, and highlight the tensions between rebels that should be resolved during the peace process.
+
+This project also contributes to an empirical gap in the literature. With the very large exception of the literature on ethnic conflict, few studies examine violence between non-state actors. This is perhaps due in part to a belief that in the absence of government involvement, violence is not political. Yet, states often do not fully control their territory during civil wars, leaving rebel groups as the *de facto* public authority in some locales. Thus, politics in some areas consists not of interactions between citizens and the *de jure* government, but rather those between citizens and rebel groups. Several studies [e.g. @Mampilly2011; @Weinstein2007] examine rebel treatment of civilians. This literature tends not to give much agency to citizens, however. This dissertation expands on the existing literature by examining the responses to rebel governance, including the formation of counterrebellions.
+
+#Theoretical Contribution
+
+- shows that even if human rights/ideological concern do not motivate major countours of foreign policy - whether to intervene or not - they do shape specific details - who to support.
+- We know something about logic of civilian targeting from rebel perspective, but what about response?
+
+#The Emergence of Counterrebellion
+
+- Ideology, human rights, stability
+
+I define counterrebellion as sustained, organized, violent opposition by a non-state actor to a group that itself violently opposes the government. This definition excludes opposition to rebels by official state forces, but does not rule out the possibility that a counterrebellion group may coordinate with and receive support from the government. For instance, the Colombian government is alleged to have delegated attacks on pro-Revolutionary Armed Forces of Colombia (FARC) civilians to the United Self-Defense Forces of Colombia (AUC). Official forces of outside states are also excluded, though again, they may support non-state groups that do meet the definition. Additionally, I exclude the forces of intergovernmental organizations such as the African Union from consideration, as their participation in civil conflicts requires official support of their member governments and tends to be motivated more strongly by conflict mitigation than other actors. This leaves several categories of organizations that may be classified as counterrebellions, though not all of these groups engage in such activities. First, I make no stipulation that counterrebellions be involved solely in campaigns against rebel groups, meaning that groups which are themselves engaged in rebellion against the government could qualify as counterrebellion. Similarly, I do not require groups to be based entirely in a particular country, allowing transnational insurgent groups to be potential counterrebellions. It is also not the case that counterrebellion movements must form in response to a rebel group. Existing militias formed to protect a locale or ethnic group may devote their efforts to opposing a rebel group. Alternatively however, some groups may form in direct response to a rebel group.
+
+<!-- relation to other concepts - counterinsurgency, etc. -->
+
+<!-- temporal dynamics - can groups transform from one type to another? -->
+
+The preceding discussion suggests that several categories of actors shape the emergence of counterrebellion. Rebel groups vary greatly in the extent to which they inspire opposition from fellow non-state actors. The characteristics, behaviors, and goals of rebel groups condition the likelihood that they will face violent challenges beyond those of the government. When opposition to a rebel group exists, there are several potential channels through which an opposition group could be actualized. Citizens or subnational groups might organize organically to challenge a rebel group. Alternatively, a government, either local or abroad, could foster the development of such groups by providing resources. In the following section I explore the conditions under which these actors are likely to support counterrebellion.
+
+<!-- How actors and interests fit in to the overarching model -->
+
+##Actors and Interests
+
+###Citizens
+
+###The Local Government
+
+Governments frequently evince some degree of tolerance for non-state counterrebellion organizations within their borders. This ranges from policies of tacit acceptance such as refraining from challenging the counterrebel group, as was the case between the Sudanese government and the SSDF, to tactical coordination and material support, as is widely believed to have occurred between the Colombian government and the AUC. In one sense this cooperation is unsurprising, as governments and counterrebels share a common enemy. Governments may even find it preferable to delegate certain tasks to outside organizations, such as inflicting violence on civilians. Yet in other respects such arrangements are suboptimal, as the government must accept something less than a monopoly on the use of force, and there is no guarantee that partnerships will hold if the rebel group is defeated. Even in the best circumstances, government alliances with non-state counterrebels entails a principal-agent problem - governments cannot completely monitor or control counterrebels, creating the possibility that behavior undesirable to the government will occur. Under what conditions are governments likely to calculate that collaboration with counterrebellion groups is worth the risk? I argue that the tactic will be adopted by desperate governments in settings where campaigns against rebels are likely to be unpopular.
+
+Government should prefer to minimize threats to their rule. Rebellions pose an obvious threat to the survival of a regime, but in the long-run counterrebellion organizations may as well. These groups are organized, have military capabilities, and comprised of members who elected not to join official government forces. Following the defeat of a rebel group, a counterrebellion might turn on the government and make a bid for control of some or all of the state. EXAMPLE Thus, governments that have a fairly high likelihood of success against rebels should be disinclined to provide active support to counterrebels. This leaves governments that are weak relative to the rebel group as potential patrons of counterrebels.
+
+Relatedly, partnering with counterrebel groups is likely to be less attractive than other methods that the government might use to enhance its capabilities. Governments that anticipate support from international allies, that have the ability to extract additional tax revenue or recruits from its citizens, or that have access to international credit markets should tend to find these sources of capabilities less risky than alliances with subnational militias.
+
+Even among governments with short time horizons and few alternatives, reliance on counterrebels is far from automatic. Delegation to non-state actors will be especially attractive when the tactics that are likely to be effective against rebels are also likely to be unpopular among civilians. Namely, when rebel groups rely on civilians for material support, violent campaigns against civilians may be an effective method of depriving the rebels of a key resource base. Yet in the long-run, such tactics are likely to be deeply unpopular, perhaps leading to greater support for the rebels. Brutal tactics are also likely to be unpopular internationally, leading to reduced support from other governments and perhaps an increased likelihood of external support for the rebels. Thus, delegation to non-state counterrebels will prove beneficial in cases where the government desires to use the unpopular tactic of civilian targeting, as it can deny involvement.
+
+Counterrebellion groups also vary greatly in the extent to which their goals are acceptable to the government. Some organizations may be largely reactive, forming for a purpose such as protecting civilians. Others, however, may have agendas beyond curtailing rebel influence that are objectionable to the government. For instance, the SSDF wanted independence for South Sudan, and the AUC is fundamentally concerned with protecting Colombian drug cartels. I expect that incompatible territorial goals will be a deterrent to government support of counterrebels. The loss of territory to a secession movement deprives a government of natural and human resources, and may undermine its claim to legitimate rule over its remaining territory. Also, whereas a government could tolerate drug trafficking in the short-run while retaining its ability to reign it in subsequently, territorial concessions may be relatively difficult to rescind. Finally, governments may fear that making concessions to one separatist group will encourage other groups to assert their own claims [@walter06]. Thus, governments of states with multiple potential secession groups, such as those with multiple politically-mobilized ethnic groups, are likely to reject collaboration with counterrebels. Again, however, this consideration interacts with time horizons. A government facing a likely defeat will find supporting and potentially legitimizing a separatist movement to be a worthwhile trade.
+
+Finally, the severity of principal-agent problems should vary based on the characteristics of the counterrebellion group. Any setting in which a government delegates certain military tasks to a counterrebellion organization, there is potential for "agency slack" - behavior by the agent that does not conform with the intentions of the government principal. Whereas in many settings this issue can be mitigated by designing thorough contracts or by closely monitoring the agent, such options tend to be unavailable in civil wars. If a government is relying on a counterrebellion group to engage in unseemly tasks such as civilian targeting, they are also likely to prefer to keep such a relationship secret, which is often incompatible with the creation and enforcement formal agreements. Monitoring is also difficult, as fighting between rebels and counterrebels often occurs in remote areas [@Fjelde2012], and the government's ability to monitor its territory may be weakened by the war. STILL NEED SOMETHING HERE - WEINSTEIN, STRUCTURE
+
+###Other Rebel Groups
+
+- recycle old draft
+
+###External Governments
+
+Many counterrebel groups receive considerable support from outside governments. This can take many forms, including funding, weapons, safe haven in neighboring territory, or training and advice. Two conditions lead foreign governments to intervene in such a way. First, the government must have a strong enough interest in the conflict to devote resources to it. Second, supporting a counterrebellion must be more attractive than supporting either the government or the primary rebel group.
+
+One category of foreign governments that is very likely to have strong interest in a conflict are those of neighboring states. Civil wars cluster in space and time, with multiple neighboring states often facing internal violence contemporaneously [@Gleditsch2002]. While this may be due in part to the spatial correlation of economic conditions and political systems, there are many cases of conflicts spilling over into neighboring countries. For example, many Hutus who participated in the Rwandan genocide fled to neighboring Zaire, stirring tensions with local Tutsis. The Rwandan government supported a Tutsi militia's intervention across the border, precipitating the First Congo War. @Gleditsch2007 finds that such transnational conflicts are especially likely when ethnic groups span national boundaries, when conflicts originate in non-democratic states, and neighbors are not economically integrated. Even if violence does not immediately spread across international borders, states that are proximate to violence tend to receive large refugee populations. Refugees can place a strain on government services, create tensions with local populations, and serve as resource bases for rebel groups, creating another avenue to transnational conflict [@Salehyan2007].
+
+External states may also have economic interests in a state that is experiencing civil war. This primarily takes the form of investment in and trade of natural resources and commodities. For instance, oil importing states would undoubtedly have an interest in shaping the outcome of violence in oil producing states. Similarly governments of states that are home to mining companies are likely to be sensitive to violence in areas where the companies have contracts. In the short term, these economic ties are likely to produce an interest in stability and violence mitigation. If the violence does become severe, however, outside interests may take the form of ensuring representation in peace negotiations to guard against the possibility that new governments or economic plans end international relationships.
+
+These factors tell us whether an external state might have an interest in shaping the outcome of civil conflict, but do not determine the form of any potential intervention. Outside states could support the government, the primary rebel group, or a third option, such as a counterrebel organization. Some set of factors must dissuade external states from supporting the government and primary rebel group, or persuade them to support the counterrebel group. In some cases, supporting such an organization may even be a coveted opportunity to reshape the political landscape in another state.
+
+A government may choose to intervene in a way that does not support a regime facing civil war for several reasons. First, there may be an international rivalry between the external state and the state experiencing civil war. A very large portion of international conflict is accounted for by a relatively small number of dyads locked in enduring rivalries [@Diehl2000]. @Maoz2012 find that such competitions often shape civil wars, as states frequently support non-state armed groups in their rivals' civil wars. Even when a member of a rivalry does not face a civil war itself, rivals may engage in proxy wars by supporting opposing sides in internal conflicts. Indeed, @Findley2006 find that if one side in a civil war receives external support, other parties are likely to as well.
+
+Even in the absence of rivalry, external states may have reason to side against the government in internal conflicts.
+
+While international rivalries may explain why an external state would choose to support an actor other than the government in a civil war, in most cases they do not account for the state's choice of clients among several non-state actors.
+
+- dislike of govt
+    + regime dissimilarity
+    + ideological difference - UNGA voting?
+    + human rights record
+- but also of rebels
+    + human rights record - naming and shaming
+    + ideology
+
+###Transnational Insurgencies
+
+<!-- ##Grievance: Violence Against Civilians
+
+##Greed: Resource Competition
+
+##External Support
+
+##Ideological Competition
+
+##Territorial Competition -->
+
+#Works Cited
+
+\singlespacing
+\noindent
+\vspace{-2em}
+\setlength{\parindent}{-0.25in}
+\setlength{\leftskip}{0.25in}
+
+[^hook]: Source: @Sundberg2012. Figure includes civil wars in which multiple non-state actors were present.

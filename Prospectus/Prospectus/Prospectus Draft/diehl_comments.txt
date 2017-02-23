@@ -1,0 +1,108 @@
+# Comments from Diehl
+
+1. The introduction is good and the questions are clear.  I am less certain that you really look extensively at the second question on p. 2 concerning changing factors over time.
+
+*Yeah that is contingent on the results of the spillover study*
+
+2. The top of p. 3, second point is not clear to me how you do this.
+
+*How rebels relate to each other tells us something about what motivates them. If they compete over resources, then the greed model finds some support. If it is about alignments, than it is something more along the lines of a grievance model*
+
+3. the contributions section is good and probably the same length and detail that you will use in the first chapter of the dissertation.
+
+
+4. You will need to explain what a network is right at the outset.
+
+
+5. Networks imply connections and these can be of various types and degrees.  Somewhere early on, you need to specify what kind of connections you are talking about. Network analysis folks usually think in terms of affinity, but later I see that you are really talking about cooperation between them.
+
+
+6. The three dimensions are fine, but different goals (beyond replacing the government) are important dimensions too - you mention this on p. 15 (e.g., secessionist v. regime capture), but they don't fit neatly into Table 2.
+
+
+7. Bottom of p. 15, peaceful strategies and violence are not mutually exclusive (e.g., IRA).
+
+
+8. On p. 16, 19 and a few other places, you seem to be talking about individuals when you are at the group level.  Watch out for this.
+
+
+9.  Does it matter that groups might fight each other?  Later in the theory and research, you don't address whether dissident groups cooperate or conflict with each other. I realize that this is partly endogenous, but it might affect whether they join the war or not.
+
+
+10. Are there cases of the government splintering and a former government faction becoming one of the dissidents?
+
+
+11. Define network density better
+
+*Extent to which nodes are connected to each other. Ratio of actual ties to potential ones.*
+
+12. Modularity is very, vary vague. At the bottom of p. 26, you don't define it conceptually or give an example.  Even the operational measure is still vague.  This is a continuing source of confusion as modularity plays a key role in the hypotheses
+
+*Extent to which network features distinct communities that have many connections within but few between. Distribution of ties within network. Low modularity signifies even distribution, while high modularity signifies clustering.*
+
+13. Should there be an H2 that is the sentence at the top of p. 27 and begins "At all levels ..."
+
+*This would be the additive version of the modularity hypothesis*
+
+14. H3 is an interactive effect - is it greater than the effect of modularity alone?
+
+*I think what I'm really after is the number of nodes with few/no ties. Maybe I can find or construct a more direct measure of this.*
+
+15. All the hypotheses are about general numbers of groups.  Much of the theoretical logic though strongly suggests that certain types of groups are more likely to join under some circumstances.  Yet none of the hypotheses are about which groups (e.g., most dissimilar to current rebels) are more likely to join.
+
+*This is a great idea, it gives a more precise test of the mechanism too. The question is whether this gets a whole chapter or gets tacked on to the first empirical chapter. An analysis with the node as the unit of analysis would be useful.*
+
+16. Similar to the last point, there aren't really any dynamic predictions or at least a sense of timing within a conflict.
+
+*The calls for mediation hypothesis sort of gets at this, but fair point. Probably it would be necessary to control for whether a group has already used violence - they can mobilize in response to new divisions quickly, while other groups would have to build that capacity.*
+
+17. You need to be clearer on how H4 differs from H1. Is the effect stronger at the outset of the conflict?
+
+*Not sure if this is really viable. The idea is that network ties that existed prior to the conflict are likely to be embedded with more social institutions and forces for momentum towards stable ties. Maybe the best way to get at this is qualitatively.*
+
+18. Is the external actor network parallel or interconnected with the dissident network?
+
+*The membership is defined by connections to the dissident network. It is parallel.*
+
+19. You need a stronger explanation of how and why the external support network has the kind of effects noted in H8a and H*b
+
+*Intervention/support are purposive, and usually have goals other than ending the conflict. Outside actors are attempting to advance their interests. This activity can clarify differences/interrupt equilibria among dissidents. They can also actively stoke tension by requiring commitment to certain principles, or even requiring groups to fight others.*
+
+1. I don't see a viable option other than dropping the unattributed events, unless you really have the time and resources to fill them in.  Any estimate of how many of these can be easily filled in?
+
+
+2. fine on constructing the networks
+
+
+3. What if the interactions with the government and external actors are also positive?
+
+
+4. Some network pictures will be useful in the discussion of network construction would be useful
+
+
+5. I understand that the need for a substantial N leads you to the 25 death threshold (instead of the COW 1000 threshold), but at the low end - near 25 - these are not really civil wars and chances are that the government is not really under threat of replacement at that point.  Do such cases fit the logic of the argument?  Would the costs of joining be less than a full scale civil war? etc etc
+
+*Fair point.*
+
+6. I am a little confused on the bottom of p. 42 - when you say rebel groups here, you mean all the dissident groups?  Later I get confused on whether you mean all the dissident groups or just those that are actively fighting.  This is complicated by the use of the term "material conflict," a term that I don't know what it means in this context.
+
+
+7. The tradeoffs you make on p. 41 are reasonable
+
+
+8. Middle paragraph on p. 43 needs to be clearer and include some examples
+
+
+9. With respect to dissident network size, someone will ask you about the selection effects - why some states have more of these to begin with
+
+
+10. The long list of control variables really runs contrary to Achen and Clarke's suggestions.  You might want to dump those that are not significant and footnote them.
+
+
+11. Burma and Palestine are good choices for case studies
+
+
+12. for the case studies in the dissertation, you will need to provide a conflict overview, make explicit reference to particular hypotheses, include the measures from the quant analysis for that case but you need some historical and qualitative analysis and detail so that there is value added.
+
+
+13. Pilot quant study is promising, but most of the controls don't pan out.

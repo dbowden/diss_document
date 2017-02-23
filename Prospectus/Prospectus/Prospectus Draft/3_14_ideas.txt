@@ -1,0 +1,31 @@
+1. lagged network fragmentation -> conflict structure
+2. Network of dissident-dissident interactions predicting network of dissident-government interactions
+
+2. what determines fragmentation? Outside intervention? government behavior?
+
+
+Network concepts to pursue:
+
+- Modularity (Waugh, Fowler et al)
+
+# Cases w/ lots of dissident interactions:
+
+- India 36k
+- Palestine 32k
+- Thailand 20k
+- Russia 14k
+- Egypt 13k
+- Nigeria 10k
+- Bangladesh 10k
+- Mexico 10k
+- Pakistan 7.7k
+- Iraq 7.4k
+- Syria 7.2k
+- Burma 6.4k
+
+# Chapters
+
+1. Dissident network structure & rebel structure
+2. Predictors of network evolution - interactions w/ outside states, conflict dynamics
+3. Case studies of Burma
+4. Predicting onset of violence? Countries with overly fragmented networks may not be at risk of violence.

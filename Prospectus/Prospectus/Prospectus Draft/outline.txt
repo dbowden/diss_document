@@ -1,0 +1,77 @@
+Consolidation of dissent
+
+- Why do some civil wars feature multiple rebel groups, while others are less complex?
+	- Exclude secessions over different territories
+	- Often there is an existing rebel group - why not join?
+
+- Explanations
+	- Politicization - if a group has fought previously or has ideological content, it is more likely to be opposed. Or, a honeymoon effect.
+    - Goal diversity - indicated by protests 
+	- Social cohesion - ethnolinguistic diversity
+	- Transnational - proximity of border, permeability of border, proximity of existing groups, involvement of outside states
+   
+
+- Components
+    + Incentives to cooperate
+    + Incentives to retain independence
+    + Modifiers: resources
+
+- Data work / analysis
+    + Code political content of rebel groups, connection to pre-war politics
+        * What their tendencies are - left/right, religious, ethnic
+        * Degree of centrality to identity
+    + Analysis of group count
+    + Fragmentation index (would network analysis be useful here?)
+
+- Extensions / spin-offs
+    + Content analysis of social media to determine group approval ratings
+    + Descriptive paper on complexity
+    + Complexity and the conflict process
+    + Spatial patterns and the conflict process - does violence get more remote as conflict ends?
+    + Spatial analysis comparing original conflict and recurrences
+    + Sub-national tax rates or welfare spending mapped to conflict events (the princeton people have this for Iraq)
+
+- Types of complexity
+    + Fragmentation - splintering
+    + Non-state conflict
+    + Formation of new groups when another already exists
+
+Key questions:
+
+1. Why do some groups persist across multiple conflicts?
+
+2. Why does new dissent lead to new groups, rather than new support for old groups?
+
+- Is it better to have separate groups from the beginning than to form a coalition that later splits?
+
+- Failure of previous conflict management attempts --- prisoner's dilemma, also international story about why no conflict management
+
+- Weak economy after previous war
+
+- Geography
+
+- Multiple tracks --- recurrence, transnational, politicization of militias
+
+- Are groups more likely to persist if they are fragmented?
+
+- Does external support play a role in fragmentation? Could the end of the cold war be a discontinuity?
+
+- Spatial component - do existing rebels and new waves of dissent fail to coalesce because they are physically separated? Is there a certain type of conflict termination (low intensity?) that is especially likely to result in remote groups?
+
+- Are there any cases where a new group emerges, but later forms an alliance with the existing group?
+
+- Social ties during wartime - drawing on Staniland and Mampilly.
+
+- Look at SCAD/NAVCO, see what attributes I can link to groups
+
+- General framework: at the individual or faction level, what do dissidents want? Ideal points. Cooperation problems.
+
+- Territorial acquisition as a predictor of conflict complexity?
+
+#Extensions/secondary chapters
+- Behavior of territory-controlling vs. not-controlling groups toward civilians, toward govt
+- Where do joiners go? Spatial relationship between rebel groups
+- Behavior of joiners vs. originators - more or less likely to pursue resources
+- Govt role in rebel structure
+- Cooperation/conflict between non-state actors (ICEWS)
+- Values survey or Afrobarometer measures of identification w/ nation predicted by changes in rebel territorial control

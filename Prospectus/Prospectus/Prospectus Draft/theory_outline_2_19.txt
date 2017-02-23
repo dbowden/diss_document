@@ -1,0 +1,29 @@
+I. Framework
+	A. Dissident network
+        - Variation in ideal points
+        - Variation in threshold at which they would use violence
+	B. Initiators vs. Joiners
+        - Lower barriers to entry for joiners, so less likely to select out ideologically committed individuals
+    C. What do rebel groups need/want? - While dividing lines are exogenous to conflict, mobilization decisions endogenous.
+    D. Big story: probability of multi-group conflict depends on attributes of initiating group. Initiating group may or may not be compatible with new waves of dissent. Incompatibility may come from structure (provision of private benefits) or from goals.
+II. Microcleavages
+    - Private benefits - resources
+        + *H1: rebel groups will tend to be smaller in the presence of natural resources*
+        + *H2: more rebel groups will emerge in the presence of natural resources*
+    - Private conflict / local attachments - civilian targeting? CUT
+        + *H3: the number of rebel groups will increase with the level of violence against civilians*
+III. Macrocleavages
+    - Ideological differences
+        + *H3: Groups w/ clear ideological preferences will be more likely to face joiner groups*
+    - Alignment - likelihood of compromise
+        + *H4: Joining will be more likely in the wake of battle losses*
+    - Tactics - civilian targeting
+        + *H5: Joining will be more likely when initiating groups target civilians*
+IV. Opportunity
+    - Geographic distance
+    - Ethnic/religious/linguistic differences
+V. Forces for Unity
+    - Repression - obviously somewhat constant - is there a certain stage in the process at which repression would increase unity?
+    - Organizational strength
+        + Previous military experience
+        + Social ties - ethnic, religious, etc.

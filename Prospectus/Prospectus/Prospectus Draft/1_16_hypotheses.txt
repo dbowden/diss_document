@@ -1,0 +1,63 @@
+#
+
+#Testable Hypotheses
+
+- Territorial acquisition (ACLED)
+
+- Spatial distance / ease of travel between existing rebels and new protester/rioters (ACLED)
+
+- Resource control/proximity (ACLED + Resource data)
+
+- Temporal dynamics / leverage in peace negotiations (there should be data here)
+
+- Civilian violence (ACLED, UCPD)
+
+- External support (UCDP) NOT MUCH GOING ON HERE
+
+- Joining is motivated by greed - new groups will veer toward resources
+
+- Joining is motivated by politics - groups should stick around to get a seat at the table
+
+- Does government block connections between new dissent and existing rebels?
+
+- Protest episodes predict new group entry
+
+- EPR spatial data - how often are there multiple rebel groups within an ethnic area?
+
+- Are there rebel-protester events? NO, JUST A FEW
+
+- Rebel control of territory. Within territory variation in resources, population.
+
+- Rebel control of territory and refugee flows.
+
+- (Closest I can get to Staniland's hypothesis) Does previous conflict activity in a geographic area increase likelihood of new groups forming there?
+
+Multiple rebel groups occur when they occupy spatially distinct areas. Why not cooperate? Why not turn on each other in pursuit of resources?
+
+Do government want fragmented rebels or not?
+
+#Possibilities
+
+- Past election data, public opinion data BALCELLS DID THIS (SEE THE ECK PIECE ON UCDP GED FOR A FEW OTHERS)
+
+- Network-based measure of ideology (VERY LITTLE EXTERNAL SUPPORT IN THESE CASES)
+
+#What Do We Know About Relationships Between Rebel Groups
+- Outright fighting between them is relatively rare, especially recently
+- There are rare cases of significant cooperation, but the modal relationship is neutrality
+- They tend to occupy distinct geographic areas, but there are many exceptions
+- Source/fragment pairs account for a large portion of the dyads in complex conflicts, but virtually every multi-actor conflict has at least one totally new group
+- Transnational groups are likely to be involved in multi-actor conflicts
+- Strong groups are less likely to be in multi-actor conflict, though the direction of the relationship is debatable
+- Ideology/politics may play a role - ideological conflicts and groups with political wings are slightly more likely to be involved in multi-actor conflicts
+
+
+
+#Questions
+- When are new groups comprised of individuals who haven't fought before, when are they reconfigurations of existing combatants?
+
+
+- Government behavior
+    + Civilian targeting - should reduce individual-level free-rider problem
+    + Bhavani et al - certain kinds of targeting may increase conflict between factions
+- Rebel behavior

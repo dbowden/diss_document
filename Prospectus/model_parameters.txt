@@ -1,0 +1,74 @@
+# Model Building Blocks
+
+- Geographic distance - mean center of group activity
+- Overlapping membership
+- Ethnicity and religion (requires coding, but is manageable)
+- Group type - party, militia, etc. - would expect cross-type ties, few within type (b/c why not just join the same group)
+- Government repression (overall, and localized by space and target)
+- Strength (troop count / election results)
+- Stability - how long-standing is the relationship
+- Interdependence - how much violence is being used by others
+    - Total - this has an inverse relationship with the cost of violence
+    - In network - this has an inverse relationship with the value of violence
+- Cost for breaking existing ties
+- Utility has curvilinear relationship with winning coalition size
+- Government strength
+
+- Heterogeneity in terms of how much factions weight these things
+- Value of revolution varies by individual
+- Risk propensity/willingness to use violence varies by individual
+
+# Potential Network Effects
+
+- Free-riding
+- Social pressure
+- Threshold/safety in numbers
+- Information/tactical diffusion
+- Change in inherent interests/motives
+
+# Processes
+
+- Fragmentation
+- Aggregation
+- Formation
+
+# Initial setup
+
+- Some in nonviolent groups, some individuals
+- Individuals can join any group (though joining nonviolent has little value)
+- Nonviolent groups can become violent
+- Individuals can leave a group, but there is a cost (varies by extent of social ties)
+
+# Simplifications
+
+- Reduce membership overlap, ethnicity, religion and geography to a single social distance parameter.
+
+## -----------------------------------------
+
+# First Cut
+
+- Agents have heterogenous positions on a left-right spectrum
+- Agents have heterogenous (but positive) cost of fighting
+- New gov takes on the median position of the members of the winning coalition (weighted by strength)
+- All agents have positive value from any revolution (relative to status quo), but exact value depends on distance from ideal point
+- Utility (fighting) = gov ideal point - agent ideal point - cost of fighting
+- Utility (not fighting) = gov ideal point - agent ideal point
+- Agents will fight when their effort moves the gov ideal point by an amount that outweighs the cost of fighting
+- Cost of fighting decrease as the number of fighters increases
+- Contest function:
+
+# Complications
+
+- Network ties of various paramters - density, structure, etc.
+- Network ties are based on homophily, and thus ties will correlate with ideal points
+- Multidimensional space / disaggregated social ties - network ties won't conform perfectly to ideal points
+- Incomplete info - you know your networks' utility, but not others
+- Incomplete info - you don't know what everyone weights most heavily (where ideal points lie)
+- International actors reveal info about ideal points
+- Norms against free riding - infighting as a response to free riding
+- Realignment/Fragmentation
+
+# Preliminary Expectations
+
+- Networks have a variegated effect - if someone has a large/tight network, their likelihood of shifting the ideal point in a meaningful way is higher - lots of support for their position
+- OTOH, a big and/or active network creates possibility for free riding

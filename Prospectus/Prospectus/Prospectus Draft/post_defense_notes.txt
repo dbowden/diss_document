@@ -1,0 +1,11 @@
+1. Start at the individual - individuals have a variety of political goals that wax and wane in salience
+
+2. Individuals form factions on the basis of political affinity, but also non-political ties such as ethnicity or trade, and any government rules restricting associations
+
+3. Factions want to maximize the proximity of the post-war government to their ideological platform, while minimizing their effort
+
+4. Network ties between factions are the result of affinity/homophily, but possibly also strategic considerations - bandwagoning to maximize power in the short run, etc. ***
+
+5. Node-level analysis: more connected factions will produce less violence / more likely to produce violence
+
+6. Country-level analysis: sparse and/or modular networks should produce more violent groups

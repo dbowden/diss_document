@@ -1,0 +1,30 @@
+#SCAD
+- COW code
+- Event Type:
+    + Organized demonstration
+    + Spontaneous demonstration
+    + Organized violent riot
+    + Spontaneous violent riot
+    + General strike
+    + Limited strike
+    + Pro government violence / repression
+    + Anti-government violence
+- Escalation - if the event evolved into a different above category
+- Actor / Target (name, no code)
+- # participants
+- Fatalities
+- Repression
+- Generic (urban/rural) & precise location
+- Issue 1 / 2 / 3:
+    + Elections
+    + Economy/jobs
+    + Food/water
+    + Environment
+    + Ethnic discrimination
+    + Religious discrimination
+    + Education
+    + Foreign affairs
+    + Domestic war/violence/terrorism
+    + Human rights/democracy
+    + Pro-government
+    + Economic resources/assets

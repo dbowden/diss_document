@@ -1,0 +1,48 @@
+# Questions
+
+1. Temporal dependence
+
+
+2. Missing data
+
+
+3. Endogeneity I: initial network size/structure
+
+
+4. Endogeneity II: network structure and conflict process
+
+
+
+Meeting w/ Brian
+
+ex ante codings - dynamics not unique to network
+
+assumption that network measure is capturing real
+
+monadic events - full picture of activity
+
+impute bounds - herfindahl index - create range of maximum and minumum possible density based on assigning missing data to each groups
+
+uniform rather than normal distritubution for bounds analysis
+
+cases on off regression line qualitative
+
+organize theory around sharp results from lit
+
+network is not fully observed
+
+weighted nodes by events
+
+theory - network is solely about relations
+
+preferences & beliefs - preferences over post-war outcomes
+
+learning as a source of interaction?
+
+you don't want to overthrow, you want to step into power
+
+free riding off of foreign powers?
+
+
+1. quant chapter very polished
+2. qual chapter

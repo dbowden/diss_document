@@ -1,0 +1,18 @@
+TODO:
+
+#Writing
+
+- Fill out intro w/ brief summary
+- Fill out broader contribs
+- Theory:
+	- More on framework - draw on Lichbach, few paras on what it takes to mobilize
+	- Revision to resource theory - aid, not necessarily greed
+	- Fill out political differences theory
+	- Fill out opportunities for ideological division-based mobilization
+    - Research design for H2, all ideology hypotheses
+   
+#Analysis
+
+- Spatial proximity measures for resources
+- Mediation model
+- Develop measure of political disagreement - protest divisions

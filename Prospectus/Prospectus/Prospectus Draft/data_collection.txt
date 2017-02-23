@@ -1,0 +1,13 @@
+#Data Collection on Rebel Attributes
+
+- Broad religion - Christianity, Islam, etc.
+- Religious sect - Catholic, Shiia, etc.
+- Language
+- Ethnicity
+- Geographic spread
+- Sector - students, farmers/peasants, factory workers, etc.
+- Ideology primary - Islamism, Leninism, etc.
+- Ideology secondary
+- Ideology tertiary
+
+- For each, a 1-5 (or 1-3) rating of centrality to identity

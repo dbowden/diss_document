@@ -13,6 +13,8 @@ fontfamily: tgpagella
 geometry: margin=1in
 numbersections: true
 toc: no
+abstract:
+    "Multi-party civil wars are among the most sever conflicts, yet we know relatively little about the determinants of rebel movement structure. I focus on a key aspect of this process - the conditions under which rebel groups are likely to form alliances. I argue that rebel groups will prefer alliances with groups that have similar non-sectarian ideologies, and dissimilar sources of material support. Groups with dissimilar ideologies or rival claims for support bases such as natural resources or an ethnic constituency should be unlikely to collaborate. I test this theory using data on alliances between 29 militant organizations in the Syrian civil war. Using an TERGM model of network formation, I show that ideological similarity indeed is a strong predictor of alliance formation. However, I find that groups competing for similar territories, natural resources, or the representation of the same religious minority are not any less likely than others to form alliances. These results call into question existing theories that expect alliances to be formed primarily on the basis of relative power."
 ---
 
  ```{r setup, include=F}

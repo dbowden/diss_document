@@ -1,0 +1,17 @@
+1. Underlying social structure determines the initial size and structure of the dissident network. This society can be very horizontal and connected, very hierarchical, or very modular, among many other possibilities. This structure is shaped by (need to do some abstraction here, and nail down what overlaps w/ Staniland):
+    - Geography: lowlands with sedentary agriculture should tend to be connected and hierarchical. Uplands are often more segmented (see Scott).
+    - Ethnicity: connections across groups can happen, but are rare. Within groups there is often tight structure.
+    - Religion: it can create cleavages and ties in a similar manner to ethnicity, but is also more likely to provide formal structure. Religions vary in the extent to which they are formally organized, and horizontally tied.
+    - Colonial history: in some cases social structure has been recently disrupted in deep ways; in other cases it is remained intact for much longer.
+    - Prior violent mobilization
+2. Social structure shapes incentives to mobilize separately or as part of a movement.
+    - Free riding and incentives to participate separately in peace negotiations
+    - Security dilemma
+3. How social structure changes
+    - International influence
+    - Effects of violence
+
+# Contributions
+
+    - Predicts the social origins of rebellion - which groups will resort to violence, rather than others.
+    - Uniquely to this project, it captures the interdependent aspects of these decisions. There are surely traits that matter in a vacuum, but the behavior of other groups also factors into the calculation.
