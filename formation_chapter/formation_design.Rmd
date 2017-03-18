@@ -13,7 +13,8 @@ source("syria_dataprep.R")
 ```
 
 ```{r members}
-cov <- read.csv("~/Box Sync/ISAMW16/isamw16_analysis/old/syria_covariates.csv")
+cov <- read.csv("~/Dropbox/Dissertation/Analyses/Alliance_Network_Chapter/isamw16_analysis/old/syria_covariates.csv")
+
 names <- cov[,1:2]
 colnames(names) <- c("Group Name", "Abbreviations")
 library(xtable)

@@ -7,7 +7,7 @@ output:
         includes:
             in_header: preamble.tex
 documentclass: article
-bibliography: /Users/david/Box Sync/library.bib
+bibliography: /Users/david/Dropbox/library.bib
 fontsize: 12pt
 fontfamily: tgpagella
 geometry: margin=1in

@@ -4,6 +4,7 @@ library(lubridate)
 library(networkDynamic)
 
 # 1. get graph membership for each year -----
+setwd("~/Dropbox/Dissertation/Analyses/Alliance_Network_Chapter/isamw16_analysis/")
 
 cov <- read.csv("old/syria_covariates.csv", stringsAsFactors = F)
 

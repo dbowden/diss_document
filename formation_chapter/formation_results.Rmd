@@ -13,7 +13,6 @@ library(xergm)
 library(texreg)
 
 #creat networkdynamic object
-setwd("~/Box Sync/ISAMW16/isamw16_analysis/")
 source("syria_dataprep.R")
 
 same.support <- matrix(get.edge.attribute(syria.full, 'same.support'),29,29)
@@ -40,7 +39,7 @@ m12 <- btergm(syria.nonshia ~ edges + triangle + threetrail + twopath + smalldif
 
 labels <- c("Edges","Triads", "3 Trails", "2 Stars", "Troop Similarity", "Troop Strength", "Same Goal", "Both Territorial Aims", "Same Religion", "Political Wing", "Same Sponsor", "Same Region", "Same Civilian Targeting", "Natural Resources", "Foreign Fighters", "Both Caliphate", "Both Jihadist", "Both Islamist")
 
-texreg(list(m10,m11,m12),caption = 'TERGM Models of Alliance Formation', custom.coef.names = labels, label="tab:models")
+htmlreg(list(m10,m11,m12),caption = 'TERGM Models of Alliance Formation', custom.coef.names = labels, label="tab:models")
 ```
 
 <!-- ```{r predprob}
